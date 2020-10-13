@@ -88,6 +88,13 @@ ul#sponsorslist
   text-align: center;
 }
 
+ul#timeline
+{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
 /* encourage line break */
 .line {
   white-space:nowrap;
