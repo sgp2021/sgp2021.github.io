@@ -81,6 +81,13 @@ p#mission
   border-radius: 0 0 10px 10px;
 }
 
+ul#keynotelist
+{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
 ul#sponsorslist
 {
   margin-left: auto;
