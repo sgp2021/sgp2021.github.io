@@ -1,0 +1,476 @@
+
+/* fonts */
+@font-face {
+  font-family: torontoSubway;
+  src: url('/fonts/toronto-subway-w01-regular.ttf');
+}
+@font-face {
+    font-family: 'Linux Libertine'; /* normal */
+    src: url('/fonts/linux-libertine/LinLibertine_R.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Linux Libertine'; /* italic */
+    src: url('/fonts/linux-libertine/LinLibertine_RI.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Linux Libertine'; /* bold */
+    src: url('/fonts/linux-libertine/LinLibertine_RB.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Linux Libertine'; /* bold */
+    src: url('/fonts/linux-libertine/LinLibertine_RBI.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Linux Biolinum'; /* normal */
+    src: url('/fonts/linux-biolinum/LinBiolinum_R.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Linux Biolinum'; /* italic */
+    src: url('/fonts/linux-biolinum/LinBiolinum_RI.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Linux Biolinum'; /* bold */
+    src: url('/fonts/linux-biolinum/LinBiolinum_RB.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Linux Biolinum'; /* bold */
+    src: url('/fonts/linux-biolinum/LinBiolinum_RBI.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+:root {
+  --parchment: #efe4d0;
+  --dark-blue: #030b20;
+  --turquoise: #58b1b2;
+  --footer-height: 50px;
+  --green: #27a84a;
+  --red: #e8323f;
+  --blue: #0c5fb1;
+  --mainfont: var(--bs-font-sans-serif);
+  --titlefont: torontoSubway, sans-serif;
+  --headerfont: var(--titlefont);
+}
+
+body
+{
+  background-color: var(--parchment);
+  color: var(--dark-blue);
+  min-width: 400px;
+  font-size: 12pt;
+}
+
+table
+{
+  margin-bottom: 8px;
+  border-collapse: separate;
+  border-spacing: 5px 0px;;
+}
+
+a
+{
+  color: var(--blue);
+}
+a:hover
+{
+  color: var(--turquoise);
+}
+
+#banner-outer
+{
+  width: 100%;
+  background-color: var(--dark-blue);
+}
+#banner-container
+{
+  max-width: 1000px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img#banner
+{
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+}
+
+/* navigation bar */
+
+#nav-border
+{
+  background-color: var(--turquoise);
+  max-width: 100%;
+}
+
+#nav-border #nav a
+{
+  font-family: var(--headerfont);
+  font-size: 1.1em;
+  color: var(--dark-blue);
+}
+
+/* https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/ */
+
+#page-container
+{
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap
+{
+  padding-bottom: var(--footer-height);
+}
+
+#content
+{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 90%;
+  margin-left:auto;
+  margin-right:auto;
+}
+#simple-static
+{
+  padding-top: 25px;
+}
+
+
+h1
+{
+  font-size: 1.2em;
+}
+h1,h2,h3,h4
+{
+  text-align: center;
+  font-family: var(--headerfont);
+}
+
+/*
+#landingSectionsContainer div:nth-of-type(3n+1)
+{
+  background-color: var(--red);
+  color: var(--parchment);
+}
+
+#landingSectionsContainer div:nth-of-type(3n+2)
+{
+  background-color: var(--green);
+}
+
+#landingSectionsContainer div:nth-of-type(3n+0)
+{
+  background-color: var(--dark-blue);
+  color: var(--parchment);
+}
+
+#landingSectionsContainer div:last-of-type
+{
+  background-color: var(--parchment);
+  color: var(--dark-blue);
+}
+*/
+
+#content *
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#simple-static
+{
+}
+
+#simple-static p
+{
+  text-align: justify;
+  text-justify: inter-word;
+  text-align-last: left;
+}
+
+
+div#footer
+{
+  position: absolute;
+  bottom: 0;
+  height: var(--footer-height);
+  background-repeat: repeat-x;
+  background-image: url("/images/small_image.jpg");
+  background-size: auto 50px;
+  width: 100%;
+}
+
+div#footer-text-container
+{
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+/* still not perfectly hugging the bottom... */
+div#footer p
+{
+  margin: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--parchment);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  font-size: 0.7em;
+}
+
+
+.keynote-name
+{
+  font-weight: bold;
+  font-size: 1.0em;
+}
+.keynote-affiliation
+{
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+.keynote-container
+{
+  overflow: hidden;
+}
+
+.keynote-container h3
+{
+  text-align: left;
+}
+
+.keynote-title:before
+{
+  content: "“";
+}
+.keynote-title:after
+{
+  content: "”";
+}
+
+.keynote-bio
+{
+  font-style: italic;
+}
+
+
+img.keynote-portrait
+{
+  float: left;
+  min-width: 100px;
+  width: 30%;
+  max-width: 500px;
+  shape-outside: circle(50%);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.keynote-text-container
+{
+  padding-left: 100px;
+}
+
+#simple-static .keynote-text-container p
+{
+  text-align: left;
+  text-align-last: left;
+}
+
+table.fixed-table td
+{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+
+td.sponsor-category
+{
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: bold;
+  text-align: right;
+  vertical-align: middle;
+}
+
+ul#platinum-sponsor-list
+{
+  font-size: 2em;
+  padding: 0;
+  margin: 0;
+}
+
+ul#gold-sponsor-list
+{
+  font-size: 1.4em;
+  padding: 0;
+  margin: 0;
+}
+
+ul#silver-sponsor-list
+{
+  font-size: 1.0em;
+  padding: 0;
+  margin: 0;
+}
+li
+{
+  list-style-type: none;
+}
+
+h2:nth-of-type(3n+1)
+{
+  border-bottom: 6px solid var(--red);
+}
+h2:nth-of-type(3n+2)
+{
+  border-bottom: 6px solid var(--green);
+}
+h2:nth-of-type(3n+0)
+{
+  border-bottom: 6px solid var(--blue);
+}
+
+div#events
+{
+  background-color: var(--dark-blue);
+  color: var(--parchment);
+  font-family: var(--headerfont);
+  font-size: 2em;
+  text-align: center;
+  text-align-last: center;
+  border-radius: 0px 0px 25px 25px;
+  line-height: 90%;
+}
+div#events p
+{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+p#about
+{
+  text-align: justify;
+  hyphens: auto;
+  text-justify: inter-word;
+  text-align-last: center;
+}
+
+
+.important-date-name
+{
+  font-style: italic;
+  text-align: right;
+}
+
+.important-date-date
+{
+}
+
+#simple-static p.single-line
+{
+  font-style: italic;
+  text-align: center;
+  text-justify: inter-word;
+  text-align-last: center;
+}
+
+ul
+{
+  width: 100%;
+  column-width: 400px;
+}
+ul.committee-list
+{
+  width: 200px;
+  column-count: 1;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table.fixed-table
+{
+  width: 100%;
+  table-layout: fixed;
+  margin-left: auto;
+  margin-right: auto;
+}
+table.chairs-table td
+{
+  padding-bottom: 20px;
+}
+
+.submit-now
+{
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-justify: inter-word;
+  text-align-last: center;
+}
+
+/* encourage line break */
+.line {
+  white-space:nowrap;
+}
+
+td.chairs-name{
+  text-align: right;
+  font-weight: bold;
+  font-style: italic;
+  vertical-align: middle;
+}
+td.chairs-items ul
+{
+  padding: 0;
+  margin: 0;
+}
+td.chairs-items ul li
+{
+  padding: 0;
+  margin: 0;
+}
+
+div.poster-container
+{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+img.poster
+{
+  max-width: 300px;
+}

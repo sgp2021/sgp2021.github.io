@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>foo on Symposium on Geometry Processing</title>
+    <link>https://sgp2021.github.io/tags/foo/</link>
+    <description>Recent content in foo on Symposium on Geometry Processing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 Mar 2021 00:48:49 -0500</lastBuildDate><atom:link href="https://sgp2021.github.io/tags/foo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>https://sgp2021.github.io/posts/my-first-post/</link>
+      <pubDate>Wed, 03 Mar 2021 00:48:49 -0500</pubDate>
+      
+      <guid>https://sgp2021.github.io/posts/my-first-post/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Pellentesque eu tincidunt tortor
+aliquam nulla facilisi cras fermentum odio. A erat nam at lectus urna duis.
+Sed velit dignissim sodales ut eu sem. Lectus urna duis convallis convallis
+tellus. Diam sit amet nisl suscipit adipiscing bibendum est. Sed felis eget
+velit aliquet sagittis id consectetur. Vulputate dignissim suspendisse in est
+ante in nibh mauris cursus. Morbi quis commodo odio aenean. Mollis nunc sed id
+semper risus in hendrerit gravida rutrum.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
