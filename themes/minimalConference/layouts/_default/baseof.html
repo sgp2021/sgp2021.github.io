@@ -1,12 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     {{- partial "head.html" . -}}
     <body>
-        {{- partial "header.html" . -}}
-        <div id="content">
-        {{- block "main" . }}{{- end }}
-        </div>
-        {{- partial "footer.html" . -}}
-        {{- partial "script.html" . -}}
+       <div id="page-container">
+          {{- partial "header.html" . -}}
+          <div id="content-wrap">
+            <div id="content">
+            {{- block "main" . }}{{- end }}
+            </div>
+          </div>
+          {{- partial "footer.html" . -}}
+          {{- partial "script.html" . -}}
+       </div>
     </body>
 </html>

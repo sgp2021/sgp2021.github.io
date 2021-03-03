@@ -1,0 +1,14 @@
+<h2>Important Dates</h2>
+
+<table class=fixed-table>
+  {{ range .Site.Params.importantDates }}
+  <tr>
+    <td class=important-date-name>
+      {{ .name }}
+    </td>
+    <td class=important-date-date>
+      {{ .date }}
+    </td>
+  </tr>
+  {{ end }}
+</table>

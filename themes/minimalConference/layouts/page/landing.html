@@ -1,0 +1,55 @@
+{{ define "main" }}
+
+<div id=events>
+{{range .Site.Params.events }}
+<p>
+<span class=line>
+  {{.name}}
+</span>
+<span class=line>
+  <i>{{.date}}</i>
+</span>
+</p>
+{{end}}
+</div>
+
+<div id=simple-static>
+
+
+<p id=about>
+{{ .Site.Params.about }} 
+</p>
+
+{{- partial "important-dates.html" . -}}
+
+<h2>Sponsors</h2>
+
+<table class=fixed-table>
+{{range .Site.Params.sponsors }}
+<tr>
+<td class=sponsor-category>{{ .name}}</td>
+<td>
+  <ul id={{.id}}-sponsor-list>
+{{range .items}}
+    <li>
+      {{ .name }}
+    </li>
+{{end}}
+  </ul>
+</td>
+</tr>
+{{end}}
+</table>
+
+
+<p class=single-line>
+<a href="mailto:{{ .Site.Params.sponsorContact}}">Contact us</a> if you like to
+  become a sponsor SGP 2021.
+</p>
+
+
+{{ .Content }}
+
+</div>
+
+{{ end }}

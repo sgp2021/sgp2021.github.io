@@ -1,0 +1,9 @@
+{{ define "main" }}
+<div id=submit>
+{{- partial "submit-now.html" . -}}
+
+{{- partial "important-dates.html" . -}}
+
+{{ .Content }}
+</div>
+{{ end }}

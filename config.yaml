@@ -1,0 +1,108 @@
+baseURL: 'https://sgp2021.github.io/'
+languageCode: en-us
+title: Symposium on Geometry Processing
+theme: minimalConference
+menu:
+  main:
+    - name: Submit
+      url: /submit/
+      weight: 10
+    - name: Program
+      url: /program/
+      weight: 20
+    - name: Organization
+      url: /organization/
+      weight: 30
+    - name: Awards
+      url: /awards/
+      weight: 40
+
+Params: 
+  events: 
+    - name: "Graduate School"
+      date: "July 10-11, 2021"
+    - name: "Conference"
+      date: "July 12-14, 2021"
+  submissionUrl: "https://srmv2.eg.org/COMFy/Conference/SGP_2021"
+  about: "The Symposium on Geometry Processing (SGP) is the premier venue for
+disseminating new research ideas and cutting-edge results in Geometry
+Processing. In this research area, concepts from mathematics, computer science,
+and engineering are studied and applied to offer new insights and design
+efficient algorithms for acquisition, modeling, analysis, manipulation,
+simulation and other types of processing of 3D models and shape collections."
+  sponsorContact: "jacobson@cs.toronto.edu"
+  sponsors:
+   - name: "Platinum"
+     id: "platinum"
+     items:
+       - name: "Autodesk"
+   - name: "Gold"
+     id: "gold"
+     items:
+       - name: "Facebook"
+       - name: "Huawei"
+   - name: "Silver"
+     id: "silver"
+     items:
+       - name: "ArchForm"
+       - name: "Augmenta"
+       - name: "Mesh Inc."
+       - name: "OnShape"
+       - name: "Ziva Dynamics"
+  importantDates:
+    - name: "Abstract submission"
+      date: "April 19, 2021"
+    - name: "Paper submission"
+      date: "April 23, 2021"
+    - name: "Notification of acceptance"
+      date: "June 5, 2021"
+    - name: "Revised version due"
+      date: "June 15, 2021"
+    - name: "Camera ready due"
+      date: "June 25, 2021"
+    - name: "Graduate school"
+      date: "July 10-11, 2021"
+    - name: "Conference"
+      date: "July 12–14, 2021"
+  chairs:
+    - name: "Conference co‑Chairs"
+      items: 
+        - name: "Angel Chang"
+          email: "angelx@sfu.ca"
+          affiliation: "Simon Fraser University"
+        - name: "Alec Jacobson"
+          email: "jacobson@cs.toronto.edu"
+          affiliation: "University of Toronto"
+    - name: "Technical Program co‑Chairs"
+      items: 
+        - name: "Julie Digne"
+          email: "chairs-sgp2021@eg.org"
+          affiliation: "LIRIS - CNRS"
+        - name: "Keenan Crane"
+          email: "chairs-sgp2021@eg.org"
+          affiliation: "Carnegie Mellon University"
+    - name: "Graduate School co‑Chairs"
+      items: 
+        - name: "Nicolas Mellado"
+          affiliation: "IRIT - CNRS"
+          email: "nicolas.mellado@irit.fr"
+        - name: "Renjie Chen"
+          email: "renjiec@ustc.edu.cn"
+          affiliation: "USTC"
+    - name: "Software & Dataset Awards Chair"
+      items: 
+        - name: "Ryan Schmidt"
+          email: "awardnominations@geometryprocessing.org"
+          affiliation: "Epic Games"
+  committees:
+    - name: "Technical Papers Committee"
+    - name: "Awards Committee"
+    - name: "Steering Committee"
+      members: 
+        - name: "Leif Kobbelt"
+        - name: "Marc Alexa"
+        - name: "Pierre Alliez"
+        - name: "Mirela Ben-Chen"
+        - name: "Hui Huang"
+        - name: "Niloy Mitra"
+        - name: "Daniele Panozzo"

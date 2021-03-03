@@ -1,15 +1,5 @@
 ---
 title: "Organization"
-layout: "simple-static"
+layout: "organization"
 type: "page"
 ---
-
-# 2021 Organizational Team
-
-
-
-## Technical Papers Committee
-
-## Steering Committee
-
-## Awards Committee

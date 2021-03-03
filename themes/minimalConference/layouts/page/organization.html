@@ -1,0 +1,44 @@
+{{ define "main" }}
+<div id=simple-static>
+{{ .Content }}
+
+<h2>2021 Organizational Team</h2>
+
+<table class=chairs-table>
+  {{range .Site.Params.chairs}}
+  <tr>
+  <td class=chairs-name>
+    {{ .name }}
+  </td>
+  <td class=chairs-items>
+    <ul>
+    {{range .items}}
+    <li>
+      <span class=line><a href="mailto:{{.email}}">{{ .name }}</a>,</span>
+      <span class=line>{{.affiliation}}</span>
+    </li>
+    {{end}}
+    </ul>
+  </td>
+  </tr>
+  {{end}}
+</table>
+
+{{ range .Site.Params.committees }}
+<h2> {{ .name }} </h2>
+
+  {{ if (not (isset . "members")) | or (eq .members "") }}
+  <p>(stay tuned for full list of members)</p>
+  {{"<!--  Posticon. Otherwise show defined icon //-->" | safeHTML}}
+  {{ else }}
+    <ul class=committee-list>
+      {{range .members}}
+      <li>
+      {{ .name }}
+      </li>
+    {{ end }}
+    </ul>
+    {{ end }}
+{{ end }} 
+
+{{ end }}
