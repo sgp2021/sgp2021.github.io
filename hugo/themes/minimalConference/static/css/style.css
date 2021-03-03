@@ -463,3 +463,14 @@ td.chairs-items ul li
   padding: 0;
   margin: 0;
 }
+
+div.poster-container
+{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+img.poster
+{
+  max-width: 300px;
+}
