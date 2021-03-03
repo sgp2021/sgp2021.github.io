@@ -1,6 +1,6 @@
 # Hugo website for SGP 2021
 
-_Do not edit `docs/` directly_
+> :warning: **_Do not edit `docs/` directly_**
 
 ## Example workflow
 
