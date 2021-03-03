@@ -1,0 +1,38 @@
+:root {
+  --parchment: #efe4d0;
+  --dark-blue: #030b20;
+  --turquoise: #58b1b2;
+}
+
+body
+{
+  background-color: var(--parchment);
+  color: var(--dark-blue);
+}
+
+div#thin-strip
+{
+  height: 50px;
+  background-repeat: repeat-x;
+  background-image: url("/images/small_image.png");
+  background-size: auto 50px;
+  width: 100%;
+}
+
+img#banner
+{
+
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center;
+}
+
+#nav-border #nav a
+{
+  color: var(--dark-blue);
+}
