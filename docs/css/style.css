@@ -474,3 +474,8 @@ img.poster
 {
   max-width: 300px;
 }
+
+div.twitter-container
+{
+  text-align: center;
+}
