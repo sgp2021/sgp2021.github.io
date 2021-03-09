@@ -415,10 +415,16 @@ ul
 }
 ul.committee-list
 {
-  width: 200px;
-  column-count: 1;
+  min-width: 200px;
+  column-width: 300px;
   margin-left: auto;
   margin-right: auto;
+}
+
+ul.committee-list li
+{
+  padding-left: 24px;
+  text-indent: -24px;
 }
 
 table.fixed-table

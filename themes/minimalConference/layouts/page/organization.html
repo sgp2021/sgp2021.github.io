@@ -24,6 +24,7 @@
   {{end}}
 </table>
 
+{{ $flags := .Site.Params.flagEmojis }}
 {{ range .Site.Params.committees }}
 <h2> {{ .name }} </h2>
 
@@ -34,7 +35,12 @@
     <ul class=committee-list>
       {{range .members}}
       <li>
-      {{ .name }}
+        {{ if ((isset . "country")) | or (not (eq .country "")) }}
+          {{ if (index $flags .country) }}
+            {{ index $flags .country }}&nbsp;
+          {{ end }}
+        {{ end }}
+        <span class="">{{ .name }}</span>{{ if ((isset . "affiliation")) | or (not (eq .affiliation "")) }}, <span class="">{{ .affiliation }}</span>{{ end }}
       </li>
     {{ end }}
     </ul>
