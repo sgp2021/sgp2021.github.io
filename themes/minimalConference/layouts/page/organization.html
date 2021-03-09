@@ -35,12 +35,15 @@
     <ul class=committee-list>
       {{range .members}}
       <li>
+        <table><tr><td>
         {{ if ((isset . "country")) | or (not (eq .country "")) }}
           {{ if (index $flags .country) }}
             {{ index $flags .country }}&nbsp;
           {{ end }}
         {{ end }}
+            </td><td>
         <span class="">{{ .name }}</span>{{ if ((isset . "affiliation")) | or (not (eq .affiliation "")) }}, <span class="">{{ .affiliation }}</span>{{ end }}
+            </td></tr></table>
       </li>
     {{ end }}
     </ul>

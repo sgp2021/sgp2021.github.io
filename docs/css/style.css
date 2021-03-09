@@ -199,7 +199,7 @@ h1,h2,h3,h4
 }
 */
 
-#content *
+#content p,table
 {
   margin-left: auto;
   margin-right: auto;
@@ -425,6 +425,24 @@ ul.committee-list li
 {
   padding-left: 24px;
   text-indent: -24px;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: left;
+}
+
+ul.committee-list li table
+{
+  margin: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  border-collapse: separate;
+  border-spacing: 0;
+  text-align: left;
+}
+ul.committee-list li table td
+{
+  vertical-align: top;
 }
 
 table.fixed-table
