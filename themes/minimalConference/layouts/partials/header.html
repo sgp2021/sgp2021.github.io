@@ -1,6 +1,6 @@
 <div id=banner-outer>
 <div id=banner-container>
-  <a href="/"><img id=banner src="/images/banner_image.jpg"></a>
+  <a href={{ .Site.BaseURL | relLangURL }}><img id=banner src="/images/banner_image.jpg"></a>
 </div>
 </div>
 
@@ -8,13 +8,8 @@
 
     <nav id="nav" class="nav justify-content-center">
         {{ range .Site.Menus.main }}
-        <a class="nav-link" href="{{ .URL }}">
-        {{ if .Pre }}
-        {{ $icon := printf "<i data-feather=\"%s\"></i> " .Pre | safeHTML }}
-        {{ $icon }}
-        {{ end }}
-        {{ $text := print .Name | safeHTML }}
-        {{ $text }}
+        <a class="nav-link" href="{{ .URL | relLangURL }}">
+        {{T .Name }}
         </a>
         {{ end }}
     </nav>

@@ -5,47 +5,47 @@ languages:
   en:
     languageName: English
     weight: 1
-    menu:
-      main:
-        - name: Submit
-          url: /submit/
-          weight: 10
-        - name: Program
-          url: /program/
-          weight: 20
-        - name: Organization
-          url: /organization/
-          weight: 30
-        - name: Awards
-          url: /awards/
-          weight: 40
-        - name: "Previous SGPs"
-          url: /past/
-          weight: 50
+    about: "The Symposium on Geometry Processing (SGP) is the premier venue for
+  disseminating new research ideas and cutting-edge results in Geometry
+  Processing. In this research area, concepts from mathematics, computer science,
+  and engineering are studied and applied to offer new insights and design
+  efficient algorithms for acquisition, modeling, analysis, manipulation,
+  simulation and other types of processing of 3D models and shape collections."
+    sponsorPlea: "if you like to become a sponsor SGP 2021."
+    submitNow: "Begin your submision now."
   es:
     languageName: Spanish
     weight: 2
-    menu:
-      main:
-        - name: Venir pronto
-          url: /es/submit/
-          weight: 10
+    about: "El Simposio sobre Procesamiento de Geometría (SGP) es el lugar principal para difundir nuevas ideas de investigación y resultados de vanguardia en Procesamiento de Geometría. En esta área de investigación, se estudian y aplican conceptos de matemáticas, informática e ingeniería para ofrecer nuevos conocimientos y diseñar algoritmos eficientes para la adquisición, modelado, análisis, manipulación, simulación y otros tipos de procesamiento de modelos 3D y colecciones de formas."
+    sponsorPlea: "si desea convertirse en patrocinador SGP 2021."
+    submitNow: "Comienza tu sumisión ahora."
 title: Symposium on Geometry Processing
 theme: minimalConference
+menu:
+  main:
+    - name: submit
+      url: /submit/
+      weight: 10
+    - name: program
+      url: /program/
+      weight: 20
+    - name: organization
+      url: /organization/
+      weight: 30
+    - name: awards
+      url: /awards/
+      weight: 40
+    - name: previous_sgps
+      url: /past/
+      weight: 50
 Params: 
-  events: 
-    - name: "Graduate School"
-      date: "July 10-11, 2021"
-    - name: "Conference"
-      date: "July 12-14, 2021"
-  submissionUrl: "https://srmv2.eg.org/COMFy/Conference/SGP_2021"
-  about: "The Symposium on Geometry Processing (SGP) is the premier venue for
-disseminating new research ideas and cutting-edge results in Geometry
-Processing. In this research area, concepts from mathematics, computer science,
-and engineering are studied and applied to offer new insights and design
-efficient algorithms for acquisition, modeling, analysis, manipulation,
-simulation and other types of processing of 3D models and shape collections."
   sponsorContact: "jacobson@cs.toronto.edu"
+  submissionUrl: "https://srmv2.eg.org/COMFy/Conference/SGP_2021"
+  events: 
+    - id: "graduate_school"
+      date: "July 10-11, 2021"
+    - id: "conference"
+      date: "July 12-14, 2021"
   sponsors:
    - name: "Platinum"
      id: "platinum"
@@ -67,22 +67,22 @@ simulation and other types of processing of 3D models and shape collections."
        - name: "OnShape"
        - name: "Ziva Dynamics"
   importantDates:
-    - name: "Abstract submission"
+    - id: abstract_submission
       date: "April 19, 2021"
-    - name: "Paper submission"
+    - id: paper_submission
       date: "April 23, 2021"
-    - name: "Notification of acceptance"
+    - id: notification_of_acceptance
       date: "June 5, 2021"
-    - name: "Revised version due"
+    - id: revised_version_due
       date: "June 15, 2021"
-    - name: "Camera ready due"
+    - id: camera_ready_due
       date: "June 25, 2021"
-    - name: "Graduate school"
+    - id: graduate_school
       date: "July 10-11, 2021"
-    - name: "Conference"
+    - id: conference
       date: "July 12–14, 2021"
   chairs:
-    - name: "Conference co‑Chairs"
+    - id: conference_co_chairs
       items: 
         - name: "Angel Chang"
           email: "angelx@sfu.ca"
@@ -90,7 +90,7 @@ simulation and other types of processing of 3D models and shape collections."
         - name: "Alec Jacobson"
           email: "jacobson@cs.toronto.edu"
           affiliation: "University of Toronto"
-    - name: "Technical Program co‑Chairs"
+    - id: technical_program_co_chairs
       items: 
         - name: "Julie Digne"
           email: "chairs-sgp2021@eg.org"
@@ -98,7 +98,7 @@ simulation and other types of processing of 3D models and shape collections."
         - name: "Keenan Crane"
           email: "chairs-sgp2021@eg.org"
           affiliation: "Carnegie Mellon University"
-    - name: "Graduate School co‑Chairs"
+    - id: graduate_school_co_chairs
       items: 
         - name: "Nicolas Mellado"
           affiliation: "IRIT - CNRS"
@@ -106,13 +106,13 @@ simulation and other types of processing of 3D models and shape collections."
         - name: "Renjie Chen"
           email: "renjiec@ustc.edu.cn"
           affiliation: "USTC"
-    - name: "Software & Dataset Awards Chair"
+    - id: awards_chair
       items: 
         - name: "Ryan Schmidt"
           email: "awardnominations@geometryprocessing.org"
           affiliation: "Epic Games"
   committees:
-    - name: "Technical Papers Committee"
+    - id: technical_papers_committee
       members:
         - name: "Alec Jacobson"
           affiliation: "University of Toronto"
@@ -387,8 +387,8 @@ simulation and other types of processing of 3D models and shape collections."
         - name: "Yu-Kun Lai"
           affiliation: "Cardiff University"
           country: "UK"
-    - name: "Awards Committee"
-    - name: "Steering Committee"
+    - id: awards_committee
+    - id: steering_committee
       members: 
         - name: "Leif Kobbelt"
           affiliation: "RWTH Aachen University"

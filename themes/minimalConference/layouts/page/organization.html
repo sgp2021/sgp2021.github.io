@@ -2,13 +2,13 @@
 <div id=simple-static>
 {{ .Content }}
 
-<h2>2021 Organizational Team</h2>
+<h2>2021 {{T "organizational_team"}}</h2>
 
 <table class=chairs-table>
   {{range .Site.Params.chairs}}
   <tr>
   <td class=chairs-name>
-    {{ .name }}
+    {{T .id }}
   </td>
   <td class=chairs-items>
     <ul>
@@ -26,7 +26,7 @@
 
 {{ $flags := .Site.Params.flagEmojis }}
 {{ range .Site.Params.committees }}
-<h2> {{ .name }} </h2>
+<h2> {{T .id }} </h2>
 
   {{ if (not (isset . "members")) | or (eq .members "") }}
   <p>(stay tuned for full list of members)</p>

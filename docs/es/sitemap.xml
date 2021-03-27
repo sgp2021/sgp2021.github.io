@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://sgp2021.github.io/es/awards/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sgp2021.github.io/awards/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://sgp2021.github.io/es/awards/"
+                />
+  </url><url>
     <loc>https://sgp2021.github.io/es/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -24,6 +36,42 @@
                 rel="alternate"
                 hreflang="es"
                 href="https://sgp2021.github.io/es/"
+                />
+  </url><url>
+    <loc>https://sgp2021.github.io/es/organization/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sgp2021.github.io/organization/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://sgp2021.github.io/es/organization/"
+                />
+  </url><url>
+    <loc>https://sgp2021.github.io/es/past/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sgp2021.github.io/past/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://sgp2021.github.io/es/past/"
+                />
+  </url><url>
+    <loc>https://sgp2021.github.io/es/program/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sgp2021.github.io/program/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://sgp2021.github.io/es/program/"
                 />
   </url><url>
     <loc>https://sgp2021.github.io/es/submit/</loc>

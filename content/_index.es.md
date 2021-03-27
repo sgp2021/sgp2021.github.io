@@ -4,9 +4,6 @@ layout: "landing"
 type: page
 ---
 
-## Response to Pandemic
+## Respuesta a la pandemia
 
-The SGP 2021 organizational team is planning to host our conference in person
-in Toronto, Canada. This plan is tentative and will depend on a sequence of
-positive changes. We will periodically provide updates as we monitor the
-situation and adjust.
+El equipo organizativo del SGP 2021 tiene previsto organizar nuestra conferencia en persona en Toronto, Canadá. Este plan es provisional y dependerá de una secuencia de cambios positivos. Proporcionaremos actualizaciones periódicamente a medida que monitoreamos la situación y nos adaptamos.

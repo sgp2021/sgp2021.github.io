@@ -1,0 +1,54 @@
+- id: sponsors
+  translation: "Patrocinadores"
+- id: graduate_school
+  translation: "Escuela de posgrado"
+- id: conference
+  translation: "Conferencia"
+- id: submit
+  translation: "Entregar"
+- id: program
+  translation: "Programa"
+- id: organization
+  translation: "Organización"
+- id: awards
+  translation: "Premios"
+- id: previous_sgps
+  translation: "SGP Anteriores"
+- id: abstract_submission
+  translation: "Presentación de resúmenes"
+- id: paper_submission
+  translation: "Presentación de documentos"
+- id: notification_of_acceptance
+  translation: "Notificación de aceptación"
+- id: revised_version_due
+  translation: "Fecha de vencimiento de la versión revisada"
+- id: camera_ready_due
+  translation: "Cámara lista debido"
+- id: contact_us
+  translation: "Contáctenos"
+- id: poster
+  translation: "Póster"
+- id: twitter_feed
+  translation: "Lista de Twitter"
+- id: keynotes
+  translation: "Discursos de apertura"
+- id: stay_tuned_for_talk_information
+  translation: "permanezca atento a la información de conversación"
+- id: organizational_team
+  translation: "Equipo Organizacional"
+- id: conference_co_chairs
+  translation: "Copresidentes de conferencia"
+- id: technical_program_co_chairs
+  translation: "Copresidentes del programa técnico"
+- id: graduate_school_co_chairs
+  translation: "Copresidentes de escuelas de posgrado"
+- id: awards_chair
+  translation: "Presidente de los premios de Software y de Dataset"
+- id: technical_papers_committee
+  translation: "Comité de artículos técnicos"
+- id: awards_committee
+  translation: "Comité de los premios"
+- id: steering_committee
+  translation: "Comité Directivo"
+- id: sponsored_by
+  translation: "Patrocinado por"
