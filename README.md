@@ -8,9 +8,9 @@ On your local machine, install hugo
 
     brew install hugo
 
-Then clone the hugo branch of this repository
+Then clone this repository
 
-    git clone -b hugo https://github.com/sgp2021/sgp2021.github.io.git
+    git clone https://github.com/sgp2021/sgp2021.github.io.git
 
 Change into this directory
 
@@ -30,5 +30,4 @@ overwriting the cached version of the website in `docs/`
 
     hugo -D -d docs
 
-Then `git commit` your changes (including those to `docs/` and `git push` onto
-this `hugo` branch (you should already be on it so simple `git push` is enough).
+Then `git commit` your changes (including those to `docs/` and `git push`.
