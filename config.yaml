@@ -54,8 +54,10 @@ simulation and other types of processing of 3D models and shape collections."
    - name: "Gold"
      id: "gold"
      items:
+       - name: "Electronic Arts"
        - name: "Facebook"
        - name: "Huawei"
+       - name: "Ubisoft"
    - name: "Silver"
      id: "silver"
      items:
