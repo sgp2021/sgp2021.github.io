@@ -1,22 +1,37 @@
 baseURL: "https://sgp2021.github.io/"
 languageCode: en-us
+DefaultContentLanguage: en
+languages:
+  en:
+    languageName: English
+    weight: 1
+    menu:
+      main:
+        - name: Submit
+          url: /submit/
+          weight: 10
+        - name: Program
+          url: /program/
+          weight: 20
+        - name: Organization
+          url: /organization/
+          weight: 30
+        - name: Awards
+          url: /awards/
+          weight: 40
+        - name: "Previous SGPs"
+          url: /past/
+          weight: 50
+  es:
+    languageName: Spanish
+    weight: 2
+    menu:
+      main:
+        - name: Venir pronto
+          url: /es/submit/
+          weight: 10
 title: Symposium on Geometry Processing
 theme: minimalConference
-menu:
-  main:
-    - name: Submit
-      url: /submit/
-      weight: 10
-    - name: Program
-      url: /program/
-      weight: 20
-    - name: Organization
-      url: /organization/
-      weight: 30
-    - name: Awards
-      url: /awards/
-      weight: 40
-
 Params: 
   events: 
     - name: "Graduate School"
@@ -644,4 +659,94 @@ simulation and other types of processing of 3D models and shape collections."
     Zambia: "🇿🇲"
     Zimbabwe: "🇿🇼"
     Åland Islands: "🇦🇽"
-
+  pastEvents:
+    - year: "2020"
+      url: "https://sgp2020.sites.uu.nl/"
+      city: "Utrecht"
+      country: "The Netherlands"
+      date: "July 6-8"
+    - year: "2019"
+      url: "https://sgp2019.di.unimi.it/index.html"
+      city: "Milan"
+      country: "Italy"
+      date: "July 8-10"
+    - year: "2018"
+      url: "https://sgp2018.sciencesconf.org/"
+      city: "Paris"
+      country: "France"
+      date: "July 7-11"
+    - year: "2017"
+      url: "http://geometry.cs.ucl.ac.uk/SGP2017/"
+      city: "London"
+      country: "UK"
+      date: "July 1-5"
+    - year: "2016"
+      url: "http://igs2016.mi.fu-berlin.de/sgp2016/"
+      city: "Berlin"
+      country: "Germany"
+      date: "June 20-24"
+    - year: "2015"
+      url: "http://www.geometrie.tugraz.at/sgp2015/"
+      city: "Graz"
+      country: "Austria"
+      date: "July 6-8"
+    - year: "2014"
+      url: "http://www.cs.cf.ac.uk/sgp2014/"
+      city: "Cardiff"
+      country: "UK"
+      date: "July 9-11"
+    - year: "2013"
+      url: "https://web.archive.org/web/20200629093239/http://sgp.ge.imati.cnr.it/"
+      city: "Genova"
+      country: "Italy"
+      date: "July 3-5"
+    - year: "2012"
+      url: "http://www.ioc.ee/sgp12/index.php"
+      city: "Tallinn"
+      country: "Estonia"
+      date: "July 16-18"
+    - year: "2011"
+      url: "http://sgp2011-lgg.epfl.ch/Home.html"
+      city: "Lausanne"
+      country: "Switzerland"
+      date: "July 20-22"
+    - year: "2010"
+      url: "http://sgp2010.liris.cnrs.fr/index.php"
+      city: "Lyon"
+      country: "France"
+      date: "July 5-7"
+    - year: "2009"
+      url: "http://sgp09.mi.fu-berlin.de/index.html"
+      city: "Berlin"
+      country: "Germany"
+      date: "July 15-17"
+    - year: "2008"
+      url: "http://www2.imm.dtu.dk/SGP08/"
+      city: "Copenhagen"
+      country: "Denmark"
+      date: "July 2-4"
+    - year: "2007"
+      url: "http://www.lsi.upc.edu/~alvar/SGP07/"
+      city: "Barcelona"
+      country: "Spain"
+      date: "July 4-6"
+    - year: "2006"
+      url: "https://web.archive.org/web/20161007164420/http://sgp2006.sc.unica.it/"
+      city: "Cagliari"
+      country: "Italy"
+      date: "June 26-28"
+    - year: "2005"
+      url: "http://www.cg.tuwien.ac.at/events/SGP05/index.html"
+      city: "Vienna"
+      country: "Austria"
+      date: "July 4-6"
+    - year: "2004"
+      url: "http://www-sop.inria.fr/geometrica/events/sgp2004/index.html"
+      city: "Nice"
+      country: "France"
+      date: "July 8-10"
+    - year: "2003"
+      url: "http://www-i8.informatik.rwth-aachen.de/SGP/index.html"
+      city: "Aachen"
+      country: "Germany"
+      date: "June 23-25"

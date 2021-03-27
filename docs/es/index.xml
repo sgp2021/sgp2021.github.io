@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Index on Symposium on Geometry Processing</title>
+    <link>https://sgp2021.github.io/es/</link>
+    <description>Recent content in Index on Symposium on Geometry Processing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://sgp2021.github.io/es/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Submit</title>
+      <link>https://sgp2021.github.io/es/submit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sgp2021.github.io/es/submit/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

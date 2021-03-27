@@ -1,0 +1,18 @@
+{{ define "main" }}
+<div id=simple-static>
+{{ .Content }}
+
+<h2>Previous SGPs</h2>
+
+{{ $flags := .Site.Params.flagEmojis }}
+<ul class=committee-list>
+{{ range .Site.Params.pastEvents }}
+      <li>
+        <span style="display:inline-block;min-width:95px;">{{ index $flags .country }}&nbsp;{{ .city }}</span>
+        <a href={{ .url }}>SGP {{ .year }}</a> on {{ .date }} 
+      </li>
+{{ end }} 
+</ul>
+
+{{ end }}
+
