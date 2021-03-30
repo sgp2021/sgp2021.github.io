@@ -447,6 +447,16 @@ ul.committee-list li table td
 {
   vertical-align: top;
 }
+blockquote ul
+{
+  width: 100%;
+  column-width: auto;
+}
+blockquote ul li
+{
+  padding-bottom: 10px;
+  list-style-type: square;
+}
 
 table.fixed-table
 {
@@ -506,3 +516,4 @@ div.twitter-container
 {
   text-align: center;
 }
+

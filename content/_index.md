@@ -6,7 +6,7 @@ type: page
 
 ## Response to Pandemic
 
-The SGP 2021 organizational team is planning to host our conference in person
-in Toronto, Canada. This plan is tentative and will depend on a sequence of
-positive changes. We will periodically provide updates as we monitor the
-situation and adjust.
+SGP 2021 will be a _**purely remote event**_ hosted over the internet. 
+While sadly there will be no in-person events in Toronto, the [organizational
+team](/organization) is enthusiastic about the opportunities created by hosting a remote event.
+Please check back frequently for more details.
