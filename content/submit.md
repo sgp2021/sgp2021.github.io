@@ -53,6 +53,16 @@ committee](/organization/#technical-papers-committee). Articles are
 conditionally accepted after the first round. Final acceptance is determined in
 the second round, based on the revised version of the article.
 
+### Anonymity and Preprints
+
+For the first time this year, we are adopting the same policy as SIGGRAPH (which is similar to CVPR) on preprints, including those shared via arXiv.  Following this policy almost verbatim, we recognize that prepublications and talks have become part of the scientific discourse, and SGP allows these means of communication. Specifically, before the final acceptance decision is made:
+
+- Authors must not discuss the research described in submitted SGP papers with the media. Media includes editors/journalists/writers/interviewers of newspapers, radio, television, magazines, as well as public relations and media arms of companies, universities, and other research institutions.
+- After submitting to SGP, authors may archive the submission without mentioning SGP as an institutional tech report or on arXiv or a similar service.
+- Authors must not make any posts to social media or elsewhere that can be linked to a specific SGP submission (e.g., mentioning the title of the submission or details and content and saying that it is a SGP submission).
+- Authors may talk about their work in a presentation without saying it is submitted to SGP.
+- Authors may mention their submission(s) as under review at SGP as part of the written materials submitted for job and funding applications. Authors may talk about the research involved in their submission in talks given for these purposes as well, without mentioning SGP.
+
 ### Proceedings
 
 Accepted papers will be published in a regular issue of _Computer Graphics
