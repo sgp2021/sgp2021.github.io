@@ -35,7 +35,7 @@ Please format your article using the template for SGP available on the SRMv2 web
 
 ### Anonymization
 
-Review is based on a double-blind reviewing process, so all submitted papers must be anonymized. Please be sure to remove all personal data (such as authors, affiliations, etc.) from your submission. References to your own work should be made in the third person. Reviewers are asked to keep confidentiality on all materials sent to them for evaluation.
+Review is based on a [dual-anonymous](https://www.acm.org/diversity-inclusion/words-matter) reviewing process: submission authors do not know the identity of their reviewers and reviewers do not know the identity of submission authors (or each other).  All submitted papers must be anonymized. Please be sure to remove all personal data (such as authors, affiliations, etc.) from your submission.  References to your own work should be made in the third person. Reviewers are asked to keep confidentiality on all materials sent to them for evaluation.
 
 ### Submitting your article
 
@@ -47,11 +47,7 @@ In order for a paper to be considered for publication, a corresponding abstract 
 
 ### Reviewing process
 
-Submitted papers undergo a two-stage review process, involving double-blind
-assessment by carefully selected reviewers from the [technical papers
-committee](/organization/#technical-papers-committee). Articles are
-conditionally accepted after the first round. Final acceptance is determined in
-the second round, based on the revised version of the article.
+Submitted papers undergo a two-stage review process, involving dual-anonymous assessment by carefully selected reviewers from the [technical papers committee](/organization/#technical-papers-committee). Articles are conditionally accepted after the first round. Final acceptance is determined in the second round, based on the revised version of the article.
 
 ### Anonymity and Preprints 
 
