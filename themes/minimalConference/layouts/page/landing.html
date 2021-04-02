@@ -30,12 +30,25 @@
 <table class=fixed-table>
 {{range .Site.Params.sponsors }}
 <tr>
+  {{ $scn := .id }}
 <td class=sponsor-category>{{ .name}}</td>
 <td>
   <ul id={{.id}}-sponsor-list>
 {{range .items}}
     <li>
+      {{ if ((isset . "logo")) | and (not (eq .logo "")) }}
+      <img class="logo_{{ $scn }}" src="{{ .logo }}" alt="{{ .name }}" title="{{ .name }}" />
+        {{ if ((isset . "logoDisclaimer")) | and (not (eq .logoDisclaimer "")) }}
+        <div class=logoDisclaimer>{{ .logoDisclaimer }}</div>
+        {{end}}
+      {{ end}}
+    </li>
+{{end}}
+{{range .items}}
+    <li>
+      {{ if (not (isset . "logo")) | or (eq .logo "") }}
       {{ .name }}
+      {{ end}}
     </li>
 {{end}}
   </ul>

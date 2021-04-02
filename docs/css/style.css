@@ -71,6 +71,7 @@
   --mainfont: var(--bs-font-sans-serif);
   --titlefont: torontoSubway, sans-serif;
   --headerfont: var(--titlefont);
+  --logoMaxWidth: 500px;
 }
 
 body
@@ -326,6 +327,20 @@ td.sponsor-category
   vertical-align: middle;
 }
 
+tr:nth-of-type(3n+2) td.sponsor-category
+{
+  border-right: 6px solid var(--red);
+}
+tr:nth-of-type(3n+1) td.sponsor-category
+{
+  border-right: 6px solid var(--green);
+}
+tr:nth-of-type(3n+0) td.sponsor-category
+{
+  border-right: 6px solid var(--blue);
+}
+
+
 ul#platinum-sponsor-list
 {
   font-size: 2em;
@@ -346,6 +361,13 @@ ul#silver-sponsor-list
   padding: 0;
   margin: 0;
 }
+ul#institutional-sponsor-list
+{
+  font-size: 1.0em;
+  padding: 0;
+  margin: 0;
+}
+
 li
 {
   list-style-type: none;
@@ -517,3 +539,42 @@ div.twitter-container
   text-align: center;
 }
 
+img.logo_institutional
+{
+  width: 50%;
+  max-width: calc(0.5 * var(--logoMaxWidth));
+  padding-bottom: 10px;
+}
+
+img.logo_silver
+{
+  width: 50%;
+  max-width: calc(0.5 * var(--logoMaxWidth));
+  padding-bottom: 10px;
+}
+
+img.logo_gold
+{
+  width:  75%;
+  max-width: calc(0.75 * var(--logoMaxWidth));
+  padding-bottom: 10px;
+}
+
+img.logo_platinum
+{
+  width: 100%;
+  max-width: calc(1.00 * var(--logoMaxWidth));
+  padding-bottom: 10px;
+}
+
+img[src$='#logo_award']
+{
+  width: 200px;
+}
+
+.logoDisclaimer
+{
+  font-size: 0.3em;
+  font-style: italic;
+  padding-bottom: 10px;
+}
