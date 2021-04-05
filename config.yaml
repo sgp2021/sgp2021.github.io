@@ -64,6 +64,8 @@ Params:
    - name: "Silver"
      id: "silver"
      items:
+       - name: "Activision"
+         logo: "/images/activision.png"
        - name: "Adobe"
          logo: "/images/adobe.png"
        - name: "ArchForm"
