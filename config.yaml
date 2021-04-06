@@ -50,7 +50,8 @@ Params:
    - name: "Platinum"
      id: "platinum"
      items:
-       - name: "Autodesk"
+       - name: "Autodesk Research"
+         logo: "/images/autodesk.png"
    - name: "Gold"
      id: "gold"
      items:
