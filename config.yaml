@@ -60,8 +60,9 @@ Params:
          logoDisclaimer: "EA and the EA logo are trademarks of Electronic Arts Inc."
        - name: "Facebook Reality Labs Research"
          logo: "/images/frl.png"
-       - name: "Huawei"
        - name: "Ubisoft"
+         logo: "/images/ubisoft.png"
+       - name: "Huawei"
    - name: "Silver"
      id: "silver"
      items:
