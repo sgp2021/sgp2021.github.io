@@ -15,7 +15,7 @@
 - id: previous_sgps
   translation: "Previous SGPs"
 - id: abstract_submission
-  translation: "Abstract submission"
+  translation: "(Recommended) Abstract submission"
 - id: paper_submission
   translation: "Paper submission"
 - id: notification_of_acceptance
