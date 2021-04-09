@@ -29,6 +29,36 @@ We invite submissions related to, but not limited to, the following topics:
 -  Smoothing, filtering, and denoising
 -  Surface and volume parameterization and deformation
 
+#### New this year: Dataset Papers.
+For the first time this year, SGP is encouraging submission of _dataset papers_ to the main technical papers program.  Geometric datasets play a critical role in evaluating the behavior of geometric algorithms, and in recent years have provided interesting and challenging examples that have driven the field forward.  We are therefore looking for papers that can build on this success by providing, documenting, and discussing datasets that provide larger, more challenging datasets than those seen before—or datasets that stimulate new challenges in geometry processing (e.g., new kinds of data that in turn demand new kinds of algorithms).  Importantly, however, a good dataset paper is more than just a dump of raw data.  We are looking for thoughtfully-written companion papers, to be evaluated according to the following criteria:
+
+**NOVELTY.** In what way(s) is the dataset different from those currently available?  For instance, does it provide new kinds of "rich" data?  Is it organized or annotated in a different way?  It is representative of a different application domain—perhaps one that is not well-studied in geometry processing?  Is it significantly larger/higher-resolution than previous datasets?  Does it provide new challenges for robustness?  Etc.
+
+**IMPACT.** What is the potential impact on research in geometry processing?  Will this dataset inspire the development of new kinds of algorithms?  Will it significantly push forward the state of the art in terms of scalability, robustness, etc.?  Does it help resolve clearly-defined holes or shortcomings of previous datasets?
+
+**PRESENTATION.** Is the paper itself well-written and well-organized?  Is the purpose of the new dataset clearly explained and motivated?  Does the paper make a compelling case that the dataset presents new opportunities or challenges (e.g., experiments indicating that current algorithms do not perform well on this data).  Is the data itself clearly described and documented?  Are sufficient details provided about, e.g., the acquisition process, or other metadata that may be useful/necessary for interpreting the data?
+
+**ACCESSIBILITY.** Is the dataset easy to access/examine?  For instance, if the dataset is very large, is there a mechanism for accessing only individual files or examples?  Are files stored in standard/open formats, and/or do the authors provide guidance on how to convert data stored in non-standard formats?  Do the authors provide tools that help to inspect/visualize novel or unusual "rich" data?  Where will the data set be hosted, and is there a plan for ensuring the dataset will remain available in the future?  Is the license clearly defined, and/or are there any significant intellectual property issues associated with sharing the dataset?
+
+**PRIVACY AND ETHICS.** Does the paper carefully address potential issues of anonymity or personally identifying information?  Does it discuss any ethical issues around acquisition of the data, or potential use/misuse of data outside the intended context?
+
+These criteria will also be provided to reviewers and committee members during the review period.  Authors interested in examples of successful dataset papers may wish to consult the following list:
+
+- The Princeton Shape Benchmark [paper](https://shape.cs.princeton.edu/benchmark/benchmark.pdf) [dataset](https://shape.cs.princeton.edu/benchmark/)
+
+- Thingi10K: A Dataset of 10000 3D-Printing Models [paper](https://ten-thousand-models.appspot.com/) [dataset](https://ten-thousand-models.appspot.com/)
+
+- ABC: A Big CAD Model Dataset For Geometric Deep Learning [paper](https://cs.nyu.edu/~zhongshi/publication/abc-dataset/) [dataset](https://archive.nyu.edu/handle/2451/43778)
+
+- ScanNet: Richly-annotated 3D Reconstructions of Indoor Scenes [paper](https://arxiv.org/abs/1702.04405) [dataset](http://www.scan-net.org/)
+
+- The Digital Michelangelo Project: 3D Scanning of Large Statues [paper](http://graphics.stanford.edu/papers/dmich-sig00/) [dataset](https://accademia.stanford.edu/data/mich/)
+
+The dataset papers will be published similarly to the technical papers, in the same Computer Graphics Forum special issue.
+
+
+
+
 ### Typesetting
 
 Please format your article using the template for SGP available on the SRMv2 website: https://srmv2.eg.org. SGP 2021 does not impose a strict maximum length for submitted papers. However, Computer Graphics Forum and SGP 2021 recommend that research papers be up to 10 pages (including all images, but excluding references). Papers should only be as long as their content would justify. Reviewers might rate a submission lower if it is perceived as being unnecessarily long. Authors are encouraged to use supplementary documents to provide extra content.
@@ -41,9 +71,9 @@ Review is based on a [dual-anonymous](https://www.acm.org/diversity-inclusion/wo
 
 Articles must be submitted, in electronic pdf format, using the Submission and Review Management (SRMv2) system.
 
-### Abstract submission
+### (Recommended) Abstract submission
 
-In order for a paper to be considered for publication, a corresponding abstract must first be submitted (within the abstract submission deadline — see timeline above).
+In order for a paper to be considered for publication, a corresponding abstract must be submitted. Although the abstract submission deadline (see timeline above) is not mandatory and will not prevent a full paper submission, it is strongly encouraged to abide by it, to help assign relevant reviewers (paper bidding done on the abstract provided by the abstract deadline).
 
 ### Reviewing process
 
