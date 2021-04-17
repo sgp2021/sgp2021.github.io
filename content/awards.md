@@ -26,7 +26,7 @@ _Will be announced at end of conference._
 
 ## Software Award
 
-Sponsored by Geometry Factory.
+Sponsored by ![gf logo](/images/GF.png#logo_award)
 
 _Will be announced at end of conference._
 
@@ -35,7 +35,7 @@ _Will be announced at end of conference._
 
 ## Dataset Award
 
-Sponsored by Geometry Factory.
+Sponsored by ![gf logo](/images/GF.png#logo_award)
 
 _Will be announced at end of conference._
 
