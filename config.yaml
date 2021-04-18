@@ -90,15 +90,15 @@ Params:
          logo: "/images/fields.png"
   importantDates:
     - id: abstract_submission
-      date: "April 19, 2021"
+      date: "April 19, 2021, 23:59 UTC"
     - id: paper_submission
-      date: "April 23, 2021"
+      date: "April 24, 2021, 23:59 UTC"
     - id: notification_of_acceptance
       date: "June 5, 2021"
     - id: revised_version_due
-      date: "June 15, 2021"
+      date: "June 15, 2021, 23:59 UTC"
     - id: camera_ready_due
-      date: "June 25, 2021"
+      date: "June 25, 2021, 23:59 UTC"
     - id: graduate_school
       date: "July 10-11, 2021"
     - id: conference
