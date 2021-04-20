@@ -5,7 +5,7 @@
 - id: conference
   translation: "Conferencia"
 - id: submit
-  translation: "Entregar"
+  translation: "Envío de trabajos"
 - id: program
   translation: "Programa"
 - id: organization
@@ -13,42 +13,42 @@
 - id: awards
   translation: "Premios"
 - id: previous_sgps
-  translation: "SGP Anteriores"
+  translation: "Ediciones anteriores"
 - id: abstract_submission
-  translation: "Presentación de resúmenes"
+  translation: "Envío de abstract"
 - id: paper_submission
-  translation: "Presentación de documentos"
+  translation: "Envío de artículos"
 - id: notification_of_acceptance
   translation: "Notificación de aceptación"
 - id: revised_version_due
-  translation: "Fecha de vencimiento de la versión revisada"
+  translation: "Fecha de entrega de la versión revisada"
 - id: camera_ready_due
-  translation: "Cámara lista debido"
+  translation: "Fecha de entrega de la versión final"
 - id: contact_us
-  translation: "Contáctenos"
+  translation: "Póngase en contacto"
 - id: poster
   translation: "Póster"
 - id: twitter_feed
-  translation: "Lista de Twitter"
+  translation: "Tweets"
 - id: keynotes
-  translation: "Discursos de apertura"
+  translation: "Charlas plenarias"
 - id: stay_tuned_for_talk_information
-  translation: "permanezca atento a la información de conversación"
+  translation: "Permanezca a la espera para más información"
 - id: organizational_team
-  translation: "Equipo Organizacional"
+  translation: "Equipo de Organización"
 - id: conference_co_chairs
-  translation: "Copresidentes de conferencia"
+  translation: "Presidencia de conferencia"
 - id: technical_program_co_chairs
-  translation: "Copresidentes del programa técnico"
+  translation: "Presidencia del programa técnico"
 - id: graduate_school_co_chairs
-  translation: "Copresidentes de escuelas de posgrado"
+  translation: "Presidencia de la escuela de posgrado"
 - id: awards_chair
-  translation: "Presidente de los premios de Software y de Dataset"
+  translation: "Presidencia de los premios de Software y de Dataset"
 - id: technical_papers_committee
   translation: "Comité de artículos técnicos"
 - id: awards_committee
-  translation: "Comité de los premios"
+  translation: "Comité de premios"
 - id: steering_committee
-  translation: "Comité Directivo"
+  translation: "Comité directivo"
 - id: sponsored_by
   translation: "Patrocinado por"

@@ -7,9 +7,10 @@ menu: submit
 
 ## Idioma de artículos
 
-Todos los presentaciones tienen que escribir entiramente _**en Íngles**_. Presentaciones en idiomas otras van a rechazar immediatamente.
+Todos los trabajos han de estar íntegramente en inglés, o serán rechazados
+inmediatamente.
 
-## Solicite artículos técnicos
+## Envíe su artículo técnico
 
 Invitamos a enviar presentaciones relacionadas con, entre otros, los siguientes
 temas:
@@ -41,9 +42,9 @@ de SRMv2: https://srmv2.eg.org . SGP 2021 no impone una longitud máxima estrict
 para los trabajos enviados. Sin embargo, Computer Graphics Forum y SGP 2021
 recomiendan que los artículos de investigación tengan hasta 10 páginas
 (incluidas todas las imágenes, pero excluidas las referencias). Los artículos
-deben ser tan largos como su contenido lo justifique. Los revisores pueden
-calificar una presentación más baja si se percibe que es innecesariamente larga.
-Se anima a los autores a utilizar documentos complementarios para proporcionar
+deben ser tan largos como su contenido justifique. Los revisores pueden
+dar a un trabajo una calificación más baja si se percibe que es innecesariamente larga.
+Se anima a los autores y autoras a utilizar documentación complementaria para proporcionar
 contenido adicional.
 
 ### Anonymization
@@ -63,14 +64,14 @@ de Gestión de Envíos y Revisiones (SRMv2).
 ### Presentación de resúmenes
 
 Para que un artículo sea considerado para publicación, primero se debe enviar el
-resumen correspondiente (dentro del plazo de envío del resumen; consulte el
-cronograma más arriba).
+abstract correspondiente (dentro del plazo de envío de abstract; ver calendario
+arriba).
 
 ### Proceso de revisión
 
 Los artículos enviados se someten a un proceso de revisión de dos etapas, que
 implica una evaluación doble ciego por parte de revisores cuidadosamente
-seleccionados del comité de artículos técnicos . Los artículos se aceptan
+seleccionados del comité de artículos técnicos. Los artículos se aceptan
 condicionalmente después de la primera ronda. La aceptación final se determina
 en la segunda ronda, en base a la versión revisada del artículo.
 
@@ -79,9 +80,9 @@ en la segunda ronda, en base a la versión revisada del artículo.
 Los artículos aceptados se publicarán en un número regular de Computer Graphics
 Forum , la Revista Internacional de la Asociación EUROGRAPHICS. Computer
 Graphics Forum (Print ISSN: 0167-7055; Online ISSN: 1467-8659) es la revista
-oficial de Eurographics , publicada en cooperación con Wiley-Blackwell, y es una
+oficial de Eurographics, publicada en cooperación con Wiley-Blackwell, y es una
 de las revistas líderes para investigadores, desarrolladores y usuarios de
-Computer Graphics en entorno tanto comercial como académico. Tiene uno de los
+Gráficos por ordenador en entorno tanto comercial como académico. Tiene uno de los
 factores de mayor impacto en el campo y está indexado por las principales bases
 de datos; Además, la versión electrónica de todos los trabajos aceptados también
 será indexada y accesible por la Biblioteca Digital EG.

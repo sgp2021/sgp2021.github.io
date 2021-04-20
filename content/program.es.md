@@ -18,12 +18,12 @@ speakers:
 
 ---
 
-## Documentos técnicos
+## Artículos
 
-_Detalles muy pronto. [Envíe su trabajo](/es/submit) que ser parte del programa de
-artículos técnicos de SGP._
+_Muy pronto habrá más detalles. [Envíe su trabajo](/es/submit) para ser parte
+del programa de artículos técnicos de SGP._
 
 ## Escuela de posgrado
 
-_Detalles muy pronto._
+_Muy pronto habrá más detalles._
 

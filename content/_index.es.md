@@ -6,4 +6,7 @@ type: page
 
 ## Respuesta a la pandemia
 
-El equipo organizativo del SGP 2021 tiene previsto organizar nuestra conferencia en persona en Toronto, Canadá. Este plan es provisional y dependerá de una secuencia de cambios positivos. Proporcionaremos actualizaciones periódicamente a medida que monitoreamos la situación y nos adaptamos.
+SGP 2021 tendrá lugar **puramente online** a través de internet. Aunque nos
+entristece no poder encontranos en Toronto, el equipo de organización está
+ilusionado por las oportunidades que presenta el evento online. Pronto tendremos
+más información.

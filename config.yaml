@@ -16,9 +16,9 @@ languages:
   es:
     languageName: Spanish
     weight: 2
-    about: "El Simposio sobre Procesamiento de Geometría (SGP) es el lugar principal para difundir nuevas ideas de investigación y resultados de vanguardia en Procesamiento de Geometría. En esta área de investigación, se estudian y aplican conceptos de matemáticas, informática e ingeniería para ofrecer nuevos conocimientos y diseñar algoritmos eficientes para la adquisición, modelado, análisis, manipulación, simulación y otros tipos de procesamiento de modelos 3D y colecciones de formas."
-    sponsorPlea: "si desea convertirse en patrocinador SGP 2021."
-    submitNow: "Comienza tu sumisión ahora."
+    about: "El Simposio de Procesamiento Geométrico (SGP) es el principal lugar de difusión de nuevas ideas de investigación y resultados en Procesamiento Geométrico. En esta área de investigación, se estudian y aplican conceptos de matemáticas, informática e ingeniería para ofrecer nuevos conocimientos y diseñar algoritmos eficientes para la adquisición, modelado, análisis, manipulación, simulación y otros tipos de procesamiento de modelos 3D y colecciones de formas."
+    sponsorPlea: "si desea patrocinar SGP 2021."
+    submitNow: "Envíe su trabajo ahora."
 title: Symposium on Geometry Processing
 theme: minimalConference
 menu:
