@@ -578,3 +578,22 @@ img[src$='#logo_award']
   font-style: italic;
   padding-bottom: 10px;
 }
+
+#languageBanner
+{
+  background-color: var(--dark-blue);
+  text-align: center;
+  color: var(--turquoise);
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+#languageBanner a
+{
+  color: var(--turquoise);
+}
+
+#languageBanner a:hover
+{
+  color: var(--blue);
+}

@@ -17,3 +17,19 @@
       https://regisphilibert.com/blog/2018/08/hugo-multilingual-part-1-managing-content-translation/ -->
 
 </div>
+
+<div id=languageBanner>
+{{ if eq .Site.Language.LanguageName "English" }}
+  {{ range .Translations }}
+    {{ if eq .Language.LanguageName "Spanish" }}
+      <a href="{{ .Permalink }}">Versión en español (en fase beta)</a>
+    {{end}}
+  {{ end}}
+{{ else }}
+  {{ range .Translations }}
+    {{ if eq .Language.LanguageName "English" }}
+      La versión en español está en fase beta. <a href="{{ .Permalink }}">Ver web oficial (en inglés).</a>
+    {{ end}}
+  {{ end}}
+{{ end}}
+</div>
