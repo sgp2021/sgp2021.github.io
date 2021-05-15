@@ -416,6 +416,37 @@ Params:
           affiliation: "Cardiff University"
           country: "UK"
     - id: awards_committee
+      members:
+        - name: Ogla Diamanti
+          affiliation: TU Graz
+          country: "Austria"
+        - name: Mirela Ben-Chen
+          affiliation: Technion-IIT
+          country: "Israel"
+        - name: Qingnan Zhou
+          affiliation: Adobe Research
+          country: "USA"
+        - name: Marco Tarini
+          affiliation: UNIMI
+          country: "Italy"
+        - name: Marco Attene
+          affiliation: CNR IMATI
+          country: "Italy"
+        - name: David Coeurjolly
+          affiliation: LIRIS - CNRS
+          country: "France"
+        - name: Andreas Fabri
+          affiliation: GeometryFactory
+          country: "France"
+        - name: Nick Sharp
+          affiliation: CMU
+          country: "USA"
+        - name: Josiah Manson
+          affiliation: Activision Blizzard
+          country: "USA"
+        - name: Philipp Herholz
+          affiliation: ETH Zurich
+          country: "Switzerland"
     - id: steering_committee
       members: 
         - name: "Leif Kobbelt"
