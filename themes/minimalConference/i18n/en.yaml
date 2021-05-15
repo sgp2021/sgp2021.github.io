@@ -52,3 +52,7 @@
   translation: "Steering Committee"
 - id: important_dates
   translation: "Important Dates"
+- id: technical_papers
+  translation: "Technical Papers"
+- id: stay_tuned_for_more_information
+  translation: "Stay tuned for more information"

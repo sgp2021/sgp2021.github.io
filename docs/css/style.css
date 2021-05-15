@@ -597,3 +597,14 @@ img[src$='#logo_award']
 {
   color: var(--blue);
 }
+
+.graduate-school-container h3
+{
+  text-align: left;
+}
+
+ul.graduate-school-speakers
+{
+  column-width: auto;
+  column-count: auto;
+}

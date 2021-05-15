@@ -34,6 +34,32 @@
 </div>
 {{ end }}
 
+<h2>{{T "technical_papers" }}</h2>
+
+<p>
+<i>{{T "stay_tuned_for_more_information"}}</i>
+</p>
+
+<h2>{{T "graduate_school" }}</h2>
+
+<div class=graduate-school-container>
+{{range .Params.graduateSchoolCourses}}
+    <h3>
+      <span class=graduate-school-title>{{ .title}}</span>
+    </h3>
+    <p>
+    {{ $len := (len .speakers ) }}
+    <ul class=graduate-school-speakers>
+    {{ range $index, $element := .speakers }}
+      <li>
+        <a href={{.url}}>{{ .name }}</a>, {{ .affiliation }}
+      </li>
+    {{end }}
+    </ul>
+    </p>
+{{ end }}
+</div>
+
 {{ .Content }}
 </div>
 {{ end }}

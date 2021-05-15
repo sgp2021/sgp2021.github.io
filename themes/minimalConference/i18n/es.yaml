@@ -54,3 +54,7 @@
   translation: "Patrocinado por"
 - id: important_dates
   translation: "Fechas Importantes"
+- id: technical_papers
+  translation: "Artículos técnicos"
+- id: stay_tuned_for_more_information
+  translation: "Permanezca a la espera para más información"
