@@ -608,3 +608,13 @@ ul.graduate-school-speakers
   column-width: auto;
   column-count: auto;
 }
+
+button
+{
+  color: inherit;
+  background-color: inherit;
+  border: none;
+  font-family: var(--headerfont);
+  font-size: 1.1em;
+  color: var(--dark-blue);
+}
