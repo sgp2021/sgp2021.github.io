@@ -10,6 +10,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="jp"
+                href="https://sgp2021.github.io/jp/awards/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="es"
                 href="https://sgp2021.github.io/es/awards/"
                 />
@@ -19,6 +24,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://sgp2021.github.io/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://sgp2021.github.io/jp/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -34,6 +44,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="jp"
+                href="https://sgp2021.github.io/jp/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="es"
                 href="https://sgp2021.github.io/es/"
                 />
@@ -43,6 +58,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://sgp2021.github.io/organization/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://sgp2021.github.io/jp/organization/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -58,6 +78,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="jp"
+                href="https://sgp2021.github.io/jp/past/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="es"
                 href="https://sgp2021.github.io/es/past/"
                 />
@@ -67,6 +92,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://sgp2021.github.io/program/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://sgp2021.github.io/jp/program/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -82,6 +112,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="jp"
+                href="https://sgp2021.github.io/jp/submit/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="es"
                 href="https://sgp2021.github.io/es/submit/"
                 />
@@ -91,6 +126,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://sgp2021.github.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://sgp2021.github.io/jp/tags/"
                 />
     <xhtml:link
                 rel="alternate"

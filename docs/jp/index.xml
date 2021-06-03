@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Index on Symposium on Geometry Processing</title>
+    <link>https://sgp2021.github.io/jp/</link>
+    <description>Recent content in Index on Symposium on Geometry Processing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://sgp2021.github.io/jp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Organization</title>
+      <link>https://sgp2021.github.io/jp/organization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sgp2021.github.io/jp/organization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Program</title>
+      <link>https://sgp2021.github.io/jp/program/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sgp2021.github.io/jp/program/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Submit</title>
+      <link>https://sgp2021.github.io/jp/submit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sgp2021.github.io/jp/submit/</guid>
+      <description>Call For Technical Papers We invite submissions related to, but not limited to, the following topics:
+SGPは以下のトピックに関連する論文を募集しています：
+ 三次元復元（Acquisition and reconstruction） ３Dプリンティング（Analysis and fabrication for 3D printing） 建築の幾何学（Architectural geometry） 離散微分幾何学（Discrete differential geometry） 三次元幾何の探索（Exploration of shape collections） 幾何データの表現（Geometry and topology representations） 幾何データの圧縮（Geometry compression） 幾何学と深層学習（Geometric deep learning） 幾何形状処理の応用（Geometry processing applications） インタラクティブな応用（Interactive techniques） メッシュ生成・再メッシュ（Meshing and remeshing） マルチスケールモデリング（Multiresolution modeling） マルチモーダル形状処理（Multimodal shape processing） 大規模形状処理（Processing of massive geometric datasets） 機械学習における幾何データの表現（Geometric representations for machine learning） 幾何形状解析・生成（Shape analysis and synthesis） シミュレーション・アニメーション（Simulation and animation） フィルタリング（Smoothing, filtering, and denoising） 幾何データの変形や座標マッピング（Surface and volume parameterization and deformation）  データセット論文に関する告知 今年から初めて、SGPではデータセット論文を受け付けています。幾何データのデータセットは幾何形状処理の 長期的な発展に必要不可欠で、特に最近は機械学習や深層学習の台頭により重要性が増しています。 SGPでは大規模で複雑なデータセットを作り、ドキュメントし、解析する論文を募集しています。</description>
+    </item>
+    
+    <item>
+      <title>表彰</title>
+      <link>https://sgp2021.github.io/jp/awards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sgp2021.github.io/jp/awards/</guid>
+      <description>最優秀論文賞 Sponsored by 会議の最終日に告知されます。
+最優秀学生論文賞 Sponsored by 会議の最終日に告知されます。
+最優秀論文賞 Honorable Mention Sponsored by 会議の最終日に告知されます。
+ソフトウェア賞 Sponsored by 会議の最終日に告知されます。
+過去の受賞ソフトウェア
+データセット賞 Sponsored by 会議の最終日に告知されます。
+過去の受賞データセット</description>
+    </item>
+    
+    <item>
+      <title>過去のSGP</title>
+      <link>https://sgp2021.github.io/jp/past/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sgp2021.github.io/jp/past/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
