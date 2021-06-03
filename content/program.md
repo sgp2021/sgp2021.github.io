@@ -46,7 +46,7 @@ graduateSchoolCourses:
     speakers:
       - name: Tamy Boubekeur
         url: https://perso.telecom-paristech.fr/boubek/
-        affiliation: Adobe 3D & Immersive
+        affiliation: Adobe Research
   - title: Vector/direction field processing
     speakers:
       - name: Amir Vaxman 
