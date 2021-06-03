@@ -60,9 +60,11 @@ graduateSchoolCourses:
       - name: Jacques-Olivier Lachaud
         url: http://www.lama.univ-savoie.fr/pagesmembres/lachaud/People/LACHAUD-JO/person.html
         affiliation: University of Savoie
-  - title: "Implementation: Python"
+  - title: "Geometric Computing with Python"
+    teaser: /images/gspython.jpg
+    abstract: "In this course, we present an easy-to-use Python-based workflow for applications in geometric computing and visualization. Our libraries have a shallow learning curve while also enable programmers to accomplish a wide variety of complex tasks. Furthermore, we adopt NumPy arrays as a common interface, which greatly simplifies serialization and interoperability with existing scientific computing packages. Finally, our libraries are performant, with most computations in C++ and a minimal overhead interface to Python. In addition, we present a demo on using the libraries to implement a geometry processing algorithm with ease. By the end of the course, attendees will have exposure to a set of simple, composable, and high-performance tools for geometric computing."
     speakers:
-      - name: Daniel Panozzo
+      - name: Daniele Panozzo
         url: https://cims.nyu.edu/gcl/daniele.html
         affiliation: NYU
       - name: Zhongshi Jiang
