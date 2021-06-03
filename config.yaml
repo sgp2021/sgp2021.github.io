@@ -19,6 +19,14 @@ languages:
     about: "El Simposio de Procesamiento Geométrico (SGP) es el principal lugar de difusión de nuevas ideas de investigación y resultados en Procesamiento Geométrico. En esta área de investigación, se estudian y aplican conceptos de matemáticas, informática e ingeniería para ofrecer nuevos conocimientos y diseñar algoritmos eficientes para la adquisición, modelado, análisis, manipulación, simulación y otros tipos de procesamiento de modelos 3D y colecciones de formas."
     sponsorPlea: "si desea patrocinar SGP 2021."
     submitNow: "Envíe su trabajo ahora."
+  jp:
+    languageName: Japanese
+    weight: 2
+    about: "幾何形状処理シンポジウム(SGP) は幾何形状処理の分野の最先端を走る世界最大規模の国際学会です。
+    幾何形状処理では、数学、コンピュータサイエンス、物理、工学など様々な分野の知見を応用して
+    三次元データの取得、解析、モデリング、シミュレーション等の効率的なアルゴリズムを開発します。"
+    sponsorPlea: "SGP 2021のスポンサーになりたい場合。"
+    submitNow: "投稿を始める。"
 title: Symposium on Geometry Processing
 theme: minimalConference
 menu:

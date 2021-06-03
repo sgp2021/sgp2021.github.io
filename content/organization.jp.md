@@ -1,5 +1,5 @@
 ---
-title: "実行委員会"
+title: "Organization"
 layout: "organization"
 type: "page"
 ---
