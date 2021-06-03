@@ -310,6 +310,15 @@ img.keynote-portrait
   text-align-last: left;
 }
 
+img.graduate-school-teaser
+{
+    float: left;
+    min-width: 100px;
+    width: 20%;
+    max-width: 300px;
+    padding: 10px;
+}
+
 table.fixed-table td
 {
   padding-left: 10px;
