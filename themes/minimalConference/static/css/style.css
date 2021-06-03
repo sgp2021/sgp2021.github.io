@@ -312,11 +312,12 @@ img.keynote-portrait
 
 img.graduate-school-teaser
 {
-    float: left;
-    min-width: 100px;
-    width: 20%;
-    max-width: 300px;
-    padding: 10px;
+  float: left;
+  min-width: 100px;
+  width: 20%;
+  max-width: 200px;
+  margin: 20px;
+  border-radius: 20px;
 }
 
 table.fixed-table td
