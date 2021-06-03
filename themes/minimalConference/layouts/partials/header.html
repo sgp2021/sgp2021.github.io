@@ -44,13 +44,22 @@
   {{ range .Translations }}
     {{ if eq .Language.LanguageName "Spanish" }}
       <a href="{{ .Permalink }}">Versión en español (en fase beta)</a>
+    {{ else if eq .Language.LanguageName "Japanese" }}
+      <a href="{{ .Permalink }}">日本語版（ベータ）</a>
     {{end}}
   {{ end}}
-{{ else }}
+{{ else if eq .Site.Language.LanguageName "Spanish" }}
   {{ range .Translations }}
     {{ if eq .Language.LanguageName "English" }}
       La versión en español está en fase beta. <a href="{{ .Permalink }}">Ver web oficial (en inglés).</a>
     {{ end}}
-  {{ end}}
+  {{ end}}   
+{{ else if eq .Site.Language.LanguageName "Japanese" }}
+  {{ range .Translations }}
+    {{ if eq .Language.LanguageName "English" }}
+        <a href="{{ .Permalink }}">英語版に戻る.</a>
+    {{ end}}
+  {{ end}}   
+{{ else }}
 {{ end}}
 </div>
