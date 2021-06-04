@@ -26,17 +26,19 @@ graduateSchoolCourses:
         affiliation: Tel Aviv University
   - title: Inter-surface Mapping
     speakers:
-      - name: "Marcel Campen"
+      - name: Marcel Campen
         url: "http://graphics.cs.uos.de/"
         affiliation: "Osnabrück University"
       - name: Patrick Schmidt
         url: "https://www.graphics.rwth-aachen.de/person/232/"
         affiliation: "RWTH Aachen University"
-  - title: Bilaplacian in Geometry Processing
+  - title: A Quick Introduction to the Laplacian and Bilaplacian Through the Theory of Partial Differential Equations
     speakers:
       - name: Oded Stein
         url: https://odedstein.com/
         affiliation: MIT
+    abstract: "In this course we will learn about the Laplacian and Bilaplacian operator, and develop mathematical tools for discussing these two popular operators in geometry processing. We will approach Laplacian and Bilaplacian from the point of view of the mathematical theory of partial differential equations and numerical analysis of finite elements. We will start with a solid mathematical foundation for the definition of Laplacian and Bilaplacian, as well as their associated partial differential equations, and discuss their solvability. Then we will discretize these operators using the finite element and mixed finite element methods, and superficially investigate their convergence. Having implemented the discrete Bilaplacian for triangle meshes, we will explore the application of this discrete operator to a variety of geometry processing problems, from smoothing and surface animation to distance computation.
+After completing this course you will be able to define Laplacian and Bilaplacian as operators on Sobolev spaces, comment on their solvability, discretize them with the mixed finite element method, and know of some of the interesting applications for which the Bilaplacian can be used."
   - title: Projective dynamics/Simulation
     speakers:
       - name: Tiantian Liu
@@ -86,4 +88,3 @@ graduateSchoolCourses:
         affiliation: University of Toronto
 
 ---
-
