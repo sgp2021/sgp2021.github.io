@@ -102,7 +102,7 @@ Params:
     - id: paper_submission
       date: "April 24, 2021, 23:59 UTC"
     - id: notification_of_acceptance
-      date: "June 5, 2021"
+      date: "June 7, 2021"
     - id: revised_version_due
       date: "June 15, 2021, 23:59 UTC"
     - id: camera_ready_due
