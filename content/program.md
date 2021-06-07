@@ -55,6 +55,9 @@ After completing this course you will be able to define Laplacian and Bilaplacia
         url: https://webspace.science.uu.nl/~vaxma001/
         affiliation: Utrecht University
   - title: Digital Geometry
+    abstract: "Digital Geometry is about the processing of topological and geometrical objects defined in regular lattices (e.g. collection of voxels in 3d). Whereas representing quantities on regular, hierarchical or adaptive grids is a classical approach to spatially discretize a domain, processing the geometry of such objects requires us to revisit classical results from continuous or discrete mathematics. In this course, we will review tools and results that have been designed specifically to the geometry processing in Z^d. More precisely, we will present how processing regularly spaced data with integer coordinate embeddings may impact computational geometry algorithms, and how stability results (multigrid convergence) of differential quantities estimators (curvature tensor, Laplace-Beltrami,..) on boundaries of digital objects can be designed. Finally, we will present some elements of discrete calculus on digital surfaces.
+Lastly, we will briefly give a demo of the DGtal library (dgtal.org) which contains a wide class of algorithms dedicated to the processing of such specific data."
+    teaser: /images/gsdiscrete.jpg
     speakers: 
       - name: David Coeurjolly
         url: https://perso.liris.cnrs.fr/david.coeurjolly/

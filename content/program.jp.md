@@ -26,17 +26,19 @@ graduateSchoolCourses:
         affiliation: Tel Aviv University
   - title: Inter-surface Mapping
     speakers:
-      - name: "Marcel Campen"
+      - name: Marcel Campen
         url: "http://graphics.cs.uos.de/"
         affiliation: "Osnabrück University"
       - name: Patrick Schmidt
         url: "https://www.graphics.rwth-aachen.de/person/232/"
         affiliation: "RWTH Aachen University"
-  - title: Bilaplacian in Geometry Processing
+  - title: A Quick Introduction to the Laplacian and Bilaplacian Through the Theory of Partial Differential Equations
     speakers:
       - name: Oded Stein
         url: https://odedstein.com/
         affiliation: MIT
+    abstract: "In this course we will learn about the Laplacian and Bilaplacian operator, and develop mathematical tools for discussing these two popular operators in geometry processing. We will approach Laplacian and Bilaplacian from the point of view of the mathematical theory of partial differential equations and numerical analysis of finite elements. We will start with a solid mathematical foundation for the definition of Laplacian and Bilaplacian, as well as their associated partial differential equations, and discuss their solvability. Then we will discretize these operators using the finite element and mixed finite element methods, and superficially investigate their convergence. Having implemented the discrete Bilaplacian for triangle meshes, we will explore the application of this discrete operator to a variety of geometry processing problems, from smoothing and surface animation to distance computation.
+After completing this course you will be able to define Laplacian and Bilaplacian as operators on Sobolev spaces, comment on their solvability, discretize them with the mixed finite element method, and know of some of the interesting applications for which the Bilaplacian can be used."
   - title: Projective dynamics/Simulation
     speakers:
       - name: Tiantian Liu
@@ -53,6 +55,9 @@ graduateSchoolCourses:
         url: https://webspace.science.uu.nl/~vaxma001/
         affiliation: Utrecht University
   - title: Digital Geometry
+    abstract: "Digital Geometry is about the processing of topological and geometrical objects defined in regular lattices (e.g. collection of voxels in 3d). Whereas representing quantities on regular, hierarchical or adaptive grids is a classical approach to spatially discretize a domain, processing the geometry of such objects requires us to revisit classical results from continuous or discrete mathematics. In this course, we will review tools and results that have been designed specifically to the geometry processing in Z^d. More precisely, we will present how processing regularly spaced data with integer coordinate embeddings may impact computational geometry algorithms, and how stability results (multigrid convergence) of differential quantities estimators (curvature tensor, Laplace-Beltrami,..) on boundaries of digital objects can be designed. Finally, we will present some elements of discrete calculus on digital surfaces.
+Lastly, we will briefly give a demo of the DGtal library (dgtal.org) which contains a wide class of algorithms dedicated to the processing of such specific data."
+    teaser: /images/gsdiscrete.jpg
     speakers: 
       - name: David Coeurjolly
         url: https://perso.liris.cnrs.fr/david.coeurjolly/
@@ -84,6 +89,7 @@ graduateSchoolCourses:
       - name: Silvia Sellán
         url: http://dgp.toronto.edu/~sgsellan/
         affiliation: University of Toronto
+
 
 ---
 
