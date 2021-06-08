@@ -7,6 +7,8 @@ speakers:
     url: https://www.morphingmatter.cs.cmu.edu/
     affiliation: Carnegie Mellon University
     portrait: /images/lyportrait.jpg
+    abstract: "Morphing Matter is an interplay of geometry and hidden forces. Lining Yao, the director of Morphing Matter Lab, will share her team's experiences of computing, designing, and fabricating morphing mechanisms that leverage both geometrical and physical knowledge of materials. Lining will unfold a few marriages of geometry and forces in the talk: a conformal map interconnecting beams shrinking and fighting for the lowest entropy, a frustum-shaped groove interfering disks swelling with differential diffusion rate, and a triangulated filler path affecting spacer fabric deforming with biased shear forces. Novel morphing mechanisms and applications also come from these marriages, such as self-assembling furniture, crawling soft robots, and morphing pasta."
+    title: "Computing Morphing Matter: the Marriage of Geometry and Hidden Forces"
   - name: Geoffrey Hinton
     url: https://www.cs.toronto.edu/~hinton/
     affiliation: University of Toronto/Google Research
@@ -17,6 +19,8 @@ speakers:
   - name: Bradley Rothenberg
     url: https://www.forbes.com/sites/amyfeldman/2020/10/06/how-this-140-million-design-software-startup-uses-math-to-help-power-the-shift-to-3d-printing/?sh=380a96fb36cc
     affiliation: CEO, nTopology
+    title: "Engineering-driven design: a new foundation"
+    abstract: "nTopology (nTop) solves some of the most difficult problems in shape design, especially those emerging due to additive manufacturing. In doing so, nTop enables new processes for design -- it empowers engineers to design parts that are impossible with older software. To achieve these goals, we use some interesting technologies that are new to engineering software -- specifically basing our modeling tech on Signed Distance Fields (SDFs). This talk describes the new design problems that engineers today face and the software we have developed for solving them."
     portrait: /images/brportrait.jpg
 graduateSchoolCourses:
   - title: Deep Learning on Meshes
@@ -33,7 +37,7 @@ graduateSchoolCourses:
         url: "https://www.graphics.rwth-aachen.de/person/232/"
         affiliation: "RWTH Aachen University"
     abstract: "Maps between the surfaces of two or more 3D models are a core building block in many geometry processing tasks. They allow transferring data (e.g. textures, labels, annotations, animations) from one object to another, they are used to establish correspondence within a data set (e.g. for machine learning purposes), and they are required when algorithms process multiple shapes at once (e.g. in co-analysis contexts or in co-processing scenarios like compatible remeshing). In this course we dive into theoretical as well as practical aspects of such maps from a computational point of view. Our main focus will be on homeomorphisms: maps that satisfy strict continuity and bijectivity criteria. These avoid any kind of undesirable tears or folds and thus provide a well-defined foundation for reliable algorithms. In three blocks, we will learn (1) how to computationally represent maps, (2) how to initially construct valid maps, in particular homeomorphisms, and (3) how to improve their quality via continuous optimization. In each chapter, we will work our way up from the well-studied case of maps in the plane to the more challenging case of maps between discrete curved surfaces."
-    teaser: /images/gsmaps.png
+    teaser: /images/gsmaps.jpg
   - title: A Quick Introduction to the Laplacian and Bilaplacian Through the Theory of Partial Differential Equations
     speakers:
       - name: Oded Stein
@@ -47,7 +51,7 @@ After completing this course you will be able to define Laplacian and Bilaplacia
         url: https://tiantianliu.cn/
         affiliation: Microsoft Research Asia
     abstract: "Physically-based simulations have been used more and more in recent interactive applications. In this talk, we will cover the key ideas we have been using to accelerate our simulations,  utilizing the geometric information of the simulated objects. We will start from Projective Dynamics, an acceleration method to simulate mass-spring systems, and some simple finite element models such as the as-rigid-as-possible model. We show that Projective Dynamics can be seen as a quasi-Newton method that approximates the Hessian matrix of the elastic potential with a topological-aware Laplacian matrix. Other than assembling the Laplacian matrices, we can also use the mesh topology to propagate information throughout the entire simulated mesh. We will then show an efficient unstructured Galerkin multigrid algorithm using this idea. We summarize these strategies we used as localizing the nonlinearity and grouping the similars. During this course, we use these strategies as an example of how we use geometric information to accelerate simulations. And we look forward to seeing more geometric-based ideas in accelerated physically-based simulations."
-    teaser: /images/gsdynamics.png
+    teaser: /images/gsdynamics.jpg
   - title: Shape Approximation from Captured 3D Data
     speakers:
       - name: Tamy Boubekeur

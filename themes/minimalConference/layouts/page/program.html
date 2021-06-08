@@ -45,12 +45,12 @@
 <div class=graduate-school-container>
 {{range .Params.graduateSchoolCourses}}
     <div class=graduate-school-text-container>
-    {{ if (isset . "teaser") }}
-    <img src={{ .teaser }} class=graduate-school-teaser>
-    {{ end }}
     <h3>
       <span class=graduate-school-title>{{ .title}}</span>
     </h3>
+    {{ if (isset . "teaser") }}
+    <img src={{ .teaser }} class=graduate-school-teaser>
+    {{ end }}
     <p>
     {{ $len := (len .speakers ) }}
     <ul class=graduate-school-speakers>
