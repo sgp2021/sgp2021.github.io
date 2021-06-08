@@ -104,7 +104,7 @@ Params:
     - id: notification_of_acceptance
       date: "June 7, 2021"
     - id: revised_version_due
-      date: "June 15, 2021, 23:59 UTC"
+      date: "June 18, 2021, 23:59 UTC"
     - id: camera_ready_due
       date: "June 25, 2021, 23:59 UTC"
     - id: graduate_school
