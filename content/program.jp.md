@@ -24,7 +24,7 @@ graduateSchoolCourses:
       - name: Rana Hanocka
         url: https://www.cs.tau.ac.il/~hanocka/
         affiliation: Tel Aviv University
-  - title: Inter-surface Mapping
+  - title: Maps Between Surfaces
     speakers:
       - name: Marcel Campen
         url: "http://graphics.cs.uos.de/"
@@ -32,6 +32,8 @@ graduateSchoolCourses:
       - name: Patrick Schmidt
         url: "https://www.graphics.rwth-aachen.de/person/232/"
         affiliation: "RWTH Aachen University"
+    abstract: "Maps between the surfaces of two or more 3D models are a core building block in many geometry processing tasks. They allow transferring data (e.g. textures, labels, annotations, animations) from one object to another, they are used to establish correspondence within a data set (e.g. for machine learning purposes), and they are required when algorithms process multiple shapes at once (e.g. in co-analysis contexts or in co-processing scenarios like compatible remeshing). In this course we dive into theoretical as well as practical aspects of such maps from a computational point of view. Our main focus will be on homeomorphisms: maps that satisfy strict continuity and bijectivity criteria. These avoid any kind of undesirable tears or folds and thus provide a well-defined foundation for reliable algorithms. In three blocks, we will learn (1) how to computationally represent maps, (2) how to initially construct valid maps, in particular homeomorphisms, and (3) how to improve their quality via continuous optimization. In each chapter, we will work our way up from the well-studied case of maps in the plane to the more challenging case of maps between discrete curved surfaces."
+    teaser: /images/gsmaps.png
   - title: A Quick Introduction to the Laplacian and Bilaplacian Through the Theory of Partial Differential Equations
     speakers:
       - name: Oded Stein
@@ -44,6 +46,8 @@ After completing this course you will be able to define Laplacian and Bilaplacia
       - name: Tiantian Liu
         url: https://tiantianliu.cn/
         affiliation: Microsoft Research Asia
+    abstract: "Physically-based simulations have been used more and more in recent interactive applications. In this talk, we will cover the key ideas we have been using to accelerate our simulations,  utilizing the geometric information of the simulated objects. We will start from Projective Dynamics, an acceleration method to simulate mass-spring systems, and some simple finite element models such as the as-rigid-as-possible model. We show that Projective Dynamics can be seen as a quasi-Newton method that approximates the Hessian matrix of the elastic potential with a topological-aware Laplacian matrix. Other than assembling the Laplacian matrices, we can also use the mesh topology to propagate information throughout the entire simulated mesh. We will then show an efficient unstructured Galerkin multigrid algorithm using this idea. We summarize these strategies we used as localizing the nonlinearity and grouping the similars. During this course, we use these strategies as an example of how we use geometric information to accelerate simulations. And we look forward to seeing more geometric-based ideas in accelerated physically-based simulations."
+    teaser: /images/gsdynamics.png
   - title: Shape Approximation from Captured 3D Data
     speakers:
       - name: Tamy Boubekeur
@@ -76,6 +80,9 @@ Lastly, we will briefly give a demo of the DGtal library (dgtal.org) which conta
         url: https://cs.nyu.edu/~zhongshi/
         affiliation: NYU
   - title: "An Introduction to Geometry Processing Programming in MATLAB with gptoolbox"
+    abstract: "It is easy and convenient to use MATLAB for research and teaching in geometry processing. In this tutorial we will teach you the very basics of geometry processing in MATLAB using the simple library gptoolbox, which implements a plethora of standard geometry processing algorithms.
+We will show you how to do basic linear algebra operations in MATLAB, how to manipulate geometric objects, how to display surfaces, and how to do some popular geometry processing operations in MATLAB's powerful interactive environment."
+    teaser: /images/gsmatlab.jpg
     speakers: 
       - name: Alec Jacobson
         url: http://www.cs.toronto.edu/~jacobson/
@@ -89,7 +96,6 @@ Lastly, we will briefly give a demo of the DGtal library (dgtal.org) which conta
       - name: Silvia Sellán
         url: http://dgp.toronto.edu/~sgsellan/
         affiliation: University of Toronto
-
 
 ---
 

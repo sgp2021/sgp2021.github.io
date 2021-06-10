@@ -84,6 +84,9 @@ Lastly, we will briefly give a demo of the DGtal library (dgtal.org) which conta
         url: https://cs.nyu.edu/~zhongshi/
         affiliation: NYU
   - title: "An Introduction to Geometry Processing Programming in MATLAB with gptoolbox"
+    abstract: "It is easy and convenient to use MATLAB for research and teaching in geometry processing. In this tutorial we will teach you the very basics of geometry processing in MATLAB using the simple library gptoolbox, which implements a plethora of standard geometry processing algorithms.
+We will show you how to do basic linear algebra operations in MATLAB, how to manipulate geometric objects, how to display surfaces, and how to do some popular geometry processing operations in MATLAB's powerful interactive environment."
+    teaser: /images/gsmatlab.jpg
     speakers: 
       - name: Alec Jacobson
         url: http://www.cs.toronto.edu/~jacobson/
