@@ -28,6 +28,8 @@ graduateSchoolCourses:
       - name: Rana Hanocka
         url: https://www.cs.tau.ac.il/~hanocka/
         affiliation: Tel Aviv University
+    abstract: "The irrefutable success of deep learning on structured data (such as images and text) has sparked significant interest in its applicability to problems in geometry processing. In this talk, we will discuss the key challenges and current solutions for using mesh convolutional neural networks on the unstructured mesh representation for problems in geometry processing. We will outline the design choices and implications of (1) learning on different mesh elements (vertices, faces, edges); (2) invariance to rigid transformations; (3) invariance and equivariance to the order of mesh elements; (4) input features, among others. We discuss existing applications of mesh convolutional neural networks, as well as potential promising future directions."
+    teaser: /images/gslearning.jpg
   - title: Maps Between Surfaces
     speakers:
       - name: Marcel Campen
@@ -45,6 +47,7 @@ graduateSchoolCourses:
         affiliation: MIT
     abstract: "In this course we will learn about the Laplacian and Bilaplacian operator, and develop mathematical tools for discussing these two popular operators in geometry processing. We will approach Laplacian and Bilaplacian from the point of view of the mathematical theory of partial differential equations and numerical analysis of finite elements. We will start with a solid mathematical foundation for the definition of Laplacian and Bilaplacian, as well as their associated partial differential equations, and discuss their solvability. Then we will discretize these operators using the finite element and mixed finite element methods, and superficially investigate their convergence. Having implemented the discrete Bilaplacian for triangle meshes, we will explore the application of this discrete operator to a variety of geometry processing problems, from smoothing and surface animation to distance computation.
 After completing this course you will be able to define Laplacian and Bilaplacian as operators on Sobolev spaces, comment on their solvability, discretize them with the mixed finite element method, and know of some of the interesting applications for which the Bilaplacian can be used."
+    teaser: /images/gslaplacian.jpg
   - title: Projective dynamics/Simulation
     speakers:
       - name: Tiantian Liu
