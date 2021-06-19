@@ -100,3 +100,11 @@ Graphics in both commercial and academic environment. It has one of the highest
 impact factors in the field, and it is indexed by all major databases;
 additionally, the electronic version of all accepted work will also be indexed
 and accessible by the EG Digital Library.
+
+## SGP 2021 Presentation Templates
+
+Presenters are invited to use the following official SGP 2021 slide templates:
+
+- [Powerpoint](/sgp2021-template.potx)
+- [Keynote](/sgp2021-template.key)
+- [Google Slides](https://docs.google.com/presentation/d/17-VHCqHj1xvBBY2gsdsRVouOcCaEBordeZ4zlFvJbaY/edit?usp=sharing) `(File > Make a Copy > Entire Presentation)`

@@ -83,6 +83,7 @@ Params:
        - name: "Augmenta"
          logo: "/images/augmenta.png"
        - name: "Mesh Inc."
+         logo: "/images/mesh.png"
        - name: "OnShape"
          logo: "/images/onshape.png"
        - name: "Ziva Dynamics"
