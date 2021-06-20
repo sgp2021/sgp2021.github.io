@@ -746,7 +746,7 @@ Params:
       country: "France"
       date: "July 7-11"
     - year: "2017"
-      url: "http://geometry.cs.ucl.ac.uk/SGP2017/"
+      url: "https://web.archive.org/web/20210413233643/http://geometry.cs.ucl.ac.uk/SGP2017/"
       city: "London"
       country: "UK"
       date: "July 1-5"

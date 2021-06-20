@@ -628,3 +628,7 @@ button
   font-size: 1.1em;
   color: var(--dark-blue);
 }
+div.graduate-school-text-container
+{
+  overflow: auto;
+}

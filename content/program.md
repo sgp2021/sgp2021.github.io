@@ -9,6 +9,7 @@ speakers:
     portrait: /images/lyportrait.jpg
     abstract: "Morphing Matter is an interplay of geometry and hidden forces. Lining Yao, the director of Morphing Matter Lab, will share her team's experiences of computing, designing, and fabricating morphing mechanisms that leverage both geometrical and physical knowledge of materials. Lining will unfold a few marriages of geometry and forces in the talk: a conformal map interconnecting beams shrinking and fighting for the lowest entropy, a frustum-shaped groove interfering disks swelling with differential diffusion rate, and a triangulated filler path affecting spacer fabric deforming with biased shear forces. Novel morphing mechanisms and applications also come from these marriages, such as self-assembling furniture, crawling soft robots, and morphing pasta."
     title: "Computing Morphing Matter: the Marriage of Geometry and Hidden Forces"
+    bio: "Lining Yao is an Assistant Professor of Human-Computer Interaction Institute at Carnegie Mellon University (CMU), School of Computer Science, directing the Morphing Matter Lab. Lining also holds courtesy appointments at Mechanical Engineering and Material Sciences and Engineering at CMU. Morphing Matter lab develops processes, materials, tools, and applications of adaptive, dynamic, and intelligent morphing matter from nano to macro scales. Research often combines material science, computational fabrication, and creative design practices. The mission is to advance both science and society with the design of morphing matter. Lining and her lab work anti-disciplinarily, publishing and exhibiting across science, engineering, design, and art. Lining gained her Ph.D. from the MIT Media Lab. She is a Wired UK fellow, CMU Provost's Inclusive Teaching Fellow, and a recipient of the NSF CAREER Award."
   - name: Geoffrey Hinton
     url: https://www.cs.toronto.edu/~hinton/
     affiliation: University of Toronto/Google Research
@@ -96,17 +97,17 @@ Lastly, we will briefly give a demo of the DGtal library (dgtal.org) which conta
 We will show you how to do basic linear algebra operations in MATLAB, how to manipulate geometric objects, how to display surfaces, and how to do some popular geometry processing operations in MATLAB's powerful interactive environment."
     teaser: /images/gsmatlab.jpg
     speakers: 
-      - name: Alec Jacobson
-        url: http://www.cs.toronto.edu/~jacobson/
-        affiliation: University of Toronto
-      - name: Oded Stein
-        url: https://odedstein.com/
-        affiliation: MIT
       - name: Hsueh-Ti Derek Liu
         url: https://www.dgp.toronto.edu/~hsuehtil/
         affiliation: University of Toronto
       - name: Silvia Sellán
         url: http://dgp.toronto.edu/~sgsellan/
+        affiliation: University of Toronto
+      - name: Oded Stein
+        url: https://odedstein.com/
+        affiliation: MIT
+      - name: Advised by Alec Jacobson
+        url: http://www.cs.toronto.edu/~jacobson/
         affiliation: University of Toronto
 
 ---
