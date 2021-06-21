@@ -101,6 +101,14 @@ impact factors in the field, and it is indexed by all major databases;
 additionally, the electronic version of all accepted work will also be indexed
 and accessible by the EG Digital Library.
 
+## Instructions for Oral Presentations
+
+Technical Papers will be presented as pre-recorded videos (15-16 min) broadcasted live followed by a short live Q&A session (4-5 min).
+
+You are free to record the video in the manner you find best, we require however that the video starts with a title slide using the SGP2021 template available at: https://sgp2021.github.io/submit/
+
+Please send a youtube link to chairs-sgp2021@eg.org before **Thursday July 8th PM 23:59 UTC**. Videos will be gathered in a youtube playlist and made public after the conference, hence please do not include content that cannot be distributed (e.g., copyrighted photos or music).
+
 ## SGP 2021 Presentation Templates
 
 Presenters are invited to use the following official SGP 2021 slide templates:
