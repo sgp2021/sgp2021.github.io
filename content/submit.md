@@ -46,7 +46,7 @@ These criteria will also be provided to reviewers and committee members during t
 
 - The Princeton Shape Benchmark [paper](https://shape.cs.princeton.edu/benchmark/benchmark.pdf) [dataset](https://shape.cs.princeton.edu/benchmark/)
 
-- Thingi10K: A Dataset of 10000 3D-Printing Models [paper](https://ten-thousand-models.appspot.com/) [dataset](https://ten-thousand-models.appspot.com/)
+- Thingi10K: A Dataset of 10000 3D-Printing Models [paper](https://arxiv.org/abs/1605.04797) [dataset](https://ten-thousand-models.appspot.com/)
 
 - ABC: A Big CAD Model Dataset For Geometric Deep Learning [paper](https://cs.nyu.edu/~zhongshi/publication/abc-dataset/) [dataset](https://archive.nyu.edu/handle/2451/43778)
 
@@ -105,7 +105,7 @@ and accessible by the EG Digital Library.
 
 Technical Papers will be presented as pre-recorded videos (15-16 min) broadcasted live followed by a short live Q&A session (4-5 min).
 
-You are free to record the video in the manner you find best, we require however that the video starts with a title slide using the SGP2021 template available at: https://sgp2021.github.io/submit/
+You are free to record the video in the manner you find best, we require however that the video starts with a title slide using the [SGP 2021 Presentation Template](#sgp-2021-presentation-templates).
 
 Please send a youtube link to chairs-sgp2021@eg.org before **Thursday July 8th PM 23:59 UTC**. Videos will be gathered in a youtube playlist and made public after the conference, hence please do not include content that cannot be distributed (e.g., copyrighted photos or music).
 

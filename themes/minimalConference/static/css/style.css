@@ -504,6 +504,7 @@ table.chairs-table td
 
 .submit-now
 {
+  text-decoration: line-through;
   margin-top: 20px;
   font-weight: bold;
   text-align: center;
@@ -631,4 +632,12 @@ button
 div.graduate-school-text-container
 {
   overflow: auto;
+}
+
+#simple-static p.code-of-conduct
+{
+  margin-top: 20px;
+  text-align: center;
+  text-justify: inter-word;
+  text-align-last: center;
 }
