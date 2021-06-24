@@ -107,7 +107,7 @@ Params:
     - id: revised_version_due
       date: "June 18, 2021, 23:59 UTC"
     - id: camera_ready_due
-      date: "June 25, 2021, 23:59 UTC"
+      date: "June 27, 2021, 23:59 UTC"
     - id: graduate_school
       date: "July 10-11, 2021"
     - id: conference
