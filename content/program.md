@@ -2,6 +2,87 @@
 title: "Program"
 layout: "program"
 type: "page"
+paperSessions: 
+  - name: Data & Acquisition
+    teaser: /images/ps-data-and-acquisition.jpg
+    papers:
+      - title: "A Benchmark Dataset for Repetitive Pattern Recognition on Textured 3D Surfaces"
+      - title: "SimJEB: Simulated Jet Engine Bracket Dataset"
+        authors: 
+          - name: Eamon Whalen
+            affiliation: MIT
+          - name: Azariah Beyene
+            affiliation: MIT
+          - name: Caitlin Mueller
+            affiliation: MIT
+      - title: "A Robust Multi-View System for High-Fidelity Human Body Shape Reconstruction"
+      - title: "Estimating Garment Patterns from Static Scan Data"
+        note: invited from Computer Graphics Forum
+  - name: Shape Synthesis & Editing
+    teaser: /images/ps-shape-synthesis-and-editing.jpg
+    papers:
+      - title: "Gauss Stylization: Interactive Artistic Mesh Modeling based on Preferred Surface Normals"
+      - title: "Normal-Driven Spherical Shape Analogies"
+        authors: 
+          - name: Hsueh-Ti Derek Li
+            affiliation: University of Toronto
+          - name: Alec Jacobson
+            affiliation: University of Toronto
+      - title: "Roominoes: Generating Novel 3D Floor Plans From Existing 3D Rooms"
+      - title: "Blending of hyperbolic closed curves"
+  - name: Shape matching
+    papers:
+      - title: "Discrete Optimization of Shape Matching"
+      - title: "Basis Design for Functional Map Frameworks"
+      - title: "Globally Injective Geometry Optimization with Non-Injective Steps"
+  - name: Surface Reconstruction
+    papers:
+      - title: "Delaunay Meshing and Repairing of Defect-laden NURBS Models"
+      - title: "Progressive Discrete Domains for Implicit Surface Reconstruction"
+      - title: "Scalable Surface Reconstruction with Delaunay-Graph Neural Networks"
+  - name: Direction fields & quads
+    papers:
+      - title: "Simpler Quad Layouts using Relaxed Singularities"
+      - title: "Learning Direction Fields for Quad Mesh Generation"
+      - title: "Surface Map Homology Inference"
+  - name: Differential operators
+    teaser: /images/ps-differential-operators.jpg
+    papers:
+      - title: "Stable and efficient differential estimators on oriented point clouds"
+        authors:
+          - name: Thibault Lejemble 
+            affiliation: CNRS, IRIT, Université de Toulouse, France
+          - name: David Coeurjolly 
+            affiliation: CNRS, LIRIS, Université de Lyon, France
+          - name: Loïc Barthe 
+            affiliation: CNRS, IRIT, Université de Toulouse, France
+          - name: Nicolas Mellado 
+            affiliation: CNRS, IRIT, Université de Toulouse, France
+      - title: "The Diamond Laplace for Polygonal and Polyhedral Meshes"
+      - title: "Frame Field Operators"
+  - name: Distances
+    papers:
+      - title: "Geodesic Distance Computation via Virtual Source Propagation"
+      - title: "Practical Computation of the Cut Locus on Discrete Surfaces"
+      - title: "On Landmark Distances in Polygons"
+  - name: Fabrication
+    teaser: /images/ps-fabrication.jpg
+    papers:
+      - title: "Developable Approximation via Gauss Image Thinning"
+      - title: "Wearable 3D machine knitting"
+        authors:
+          - name: Kui Wu
+            affiliation: MIT
+          - name: Marco Tarini
+            affiliation: CNR Italy
+          - name: Cem Yuksel
+            affiliation: Cornell University
+          - name: James Mccann
+            affiliation: Carnegie Mellon University
+          - name: Xifeng Gao
+            affiliation: Florida State University
+        note: invited from IEEE TVCG
+      - title: "Fabrication-Aware Reverse Engineering for Carpentry"
 speakers: 
   - name: Bradley Rothenberg
     url: https://www.forbes.com/sites/amyfeldman/2020/10/06/how-this-140-million-design-software-startup-uses-math-to-help-power-the-shift-to-3d-printing/?sh=380a96fb36cc

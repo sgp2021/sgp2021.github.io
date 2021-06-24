@@ -6,7 +6,7 @@
     href=https://docs.google.com/document/d/1ywKq2UizWWmDAacSV79DbStPimQhqDiFX5mOZXlt1yI/>SGP
     2021 Code of Conduct</a>.</p>
 
-  <h2>Schedule</h2>
+  <h2>Schedule (treat as tentative)</h2>
 
 <noscript id=cal-noscript>
 <iframe class=schedule src="https://calendar.google.com/calendar/u/0/embed?height=950&amp;dates=20210710/20210714&amp;wkst=6&amp;ctz=America/Toronto&amp;src=Y2YyZXBtaWFiZjVybzE2ODZ1OWh2bGV0MTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23030b20&amp;mode=AGENDA" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>
@@ -85,11 +85,32 @@
 {{ end }}
 </div>
 
-<h2>{{T "technical_papers" }}</h2>
+<h2 id=technical-papers>{{T "technical_papers" }}</h2>
 
-<p>
-<i>{{T "stay_tuned_for_more_information"}}</i>
-</p>
+    <table class=paperTable>
+{{range .Params.paperSessions}}
+      <tr class=sessionRow><td class=teaserColumn>
+    {{ if (isset . "teaser") }}
+    <img src={{ .teaser }} class=session-teaser>
+    {{ end }}
+        </td><td><h3 class=sessionName>{{ .name}}</h3>
+<ul class=paperList>
+  {{ range .papers}}
+  <li><span class=paper-title>{{ .title }}</span>
+    {{ if (isset . "note") }}
+    <span class=paper-note>{{ .note}}</span>
+    {{ end }}
+    {{ if (isset . "authors") }}
+      {{ range .authors}}
+    <div class=paper-author><span class=line>{{.name}},</span> <span class=line>{{.affiliation}}</span></div>
+      {{end}}
+    {{ end }}
+  </li>
+  {{end}}
+</ul>
+  </td></tr>
+{{end}}
+  </table>
 
 {{ .Content }}
 </div>

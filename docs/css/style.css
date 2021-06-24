@@ -68,6 +68,7 @@
   --green: #27a84a;
   --red: #e8323f;
   --blue: #0c5fb1;
+  --gray: #888;
   --mainfont: var(--bs-font-sans-serif);
   --titlefont: torontoSubway, sans-serif;
   --headerfont: var(--titlefont);
@@ -653,4 +654,78 @@ div.graduate-school-text-container
   min-width: 430px;
   margin-left: auto;
   margin-right: auto;
+}
+
+ul.paperList
+{
+  column-width: auto;
+  column-count: auto;
+  padding-left: 0;
+}
+
+ul.paperList li
+{
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+ul.paperList li:first-of-type
+{
+  padding-top: 0px;
+}
+
+ul.paperList li:before
+{
+}
+
+h3.sessionName
+{
+  text-align: left;
+}
+img.session-teaser
+{
+  width: 100%;
+  border-radius: 20px;
+}
+
+table.paperTable tr td
+{
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+
+td.teaserColumn
+{
+  vertical-align: top;
+  width: 20%;
+  min-width: 20px;
+  max-width: 100px;
+  padding: 0px;
+  margin: 0px;
+  padding-right: 20px;
+}
+
+
+.paper-author
+{
+  font-style: italic;
+  padding: 0;
+  margin: 0;
+  padding-left: 2em;
+  font-size: 0.9em;
+}
+.paper-title
+{
+  font-size: 1.1em;
+}
+.paper-title:before
+{
+  content: "“";
+}
+.paper-title:after
+{
+  content: "”";
+}
+.paper-note
+{
+  color: var(--gray);
 }
