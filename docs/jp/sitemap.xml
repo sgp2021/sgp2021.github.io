@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
     <loc>https://sgp2021.github.io/jp/categories/</loc>
     <xhtml:link
@@ -18,7 +19,9 @@
                 hreflang="jp"
                 href="https://sgp2021.github.io/jp/categories/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sgp2021.github.io/jp/</loc>
     <xhtml:link
                 rel="alternate"
@@ -35,7 +38,9 @@
                 hreflang="jp"
                 href="https://sgp2021.github.io/jp/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sgp2021.github.io/jp/organization/</loc>
     <xhtml:link
                 rel="alternate"
@@ -52,7 +57,9 @@
                 hreflang="jp"
                 href="https://sgp2021.github.io/jp/organization/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sgp2021.github.io/jp/program/</loc>
     <xhtml:link
                 rel="alternate"
@@ -69,7 +76,9 @@
                 hreflang="jp"
                 href="https://sgp2021.github.io/jp/program/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sgp2021.github.io/jp/submit/</loc>
     <xhtml:link
                 rel="alternate"
@@ -86,7 +95,9 @@
                 hreflang="jp"
                 href="https://sgp2021.github.io/jp/submit/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sgp2021.github.io/jp/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -103,7 +114,9 @@
                 hreflang="jp"
                 href="https://sgp2021.github.io/jp/tags/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sgp2021.github.io/jp/awards/</loc>
     <xhtml:link
                 rel="alternate"
@@ -120,7 +133,9 @@
                 hreflang="jp"
                 href="https://sgp2021.github.io/jp/awards/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://sgp2021.github.io/jp/past/</loc>
     <xhtml:link
                 rel="alternate"
@@ -138,4 +153,5 @@
                 href="https://sgp2021.github.io/jp/past/"
                 />
   </url>
+  
 </urlset>
