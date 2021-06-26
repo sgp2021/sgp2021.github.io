@@ -7,6 +7,12 @@ paperSessions:
     teaser: /images/ps-data-and-acquisition.jpg
     papers:
       - title: "A Benchmark Dataset for Repetitive Pattern Recognition on Textured 3D Surfaces"
+        authors:
+          - name: Stefan Lengauer
+          - name: Ivan Sipiran
+          - name: Reinhold Preiner
+          - name: Tobias Schreck
+          - name: Benjamin Bustos
       - title: "SimJEB: Simulated Jet Engine Bracket Dataset"
         authors: 
           - name: Eamon Whalen
@@ -16,12 +22,33 @@ paperSessions:
           - name: Caitlin Mueller
             affiliation: MIT
       - title: "A Robust Multi-View System for High-Fidelity Human Body Shape Reconstruction"
+        authors:
+          - name: Qitong Zhang
+          - name: Lei Wang
+          - name: Linlin Ge
+          - name: Shan Luo
+          - name: Taihao Zhu
+          - name: Feng Jiang
+          - name: Jimmy Ding
+          - name: Jieqing Feng
       - title: "Estimating Garment Patterns from Static Scan Data"
         note: invited from Computer Graphics Forum
+        authors:
+          - name: Seungbae Bang
+            affiliation: KAIST, University of Toronto
+          - name: Maria Korosteleva
+            affiliation: KAIST
+          - name: Sung-Hee Lee
+            affiliation: KAIST
   - name: Shape Synthesis & Editing
     teaser: /images/ps-shape-synthesis-and-editing.jpg
     papers:
       - title: "Gauss Stylization: Interactive Artistic Mesh Modeling based on Preferred Surface Normals"
+        authors:
+          - name: Maximilian Kohlbrenner
+          - name: Ugo Finnendahl
+          - name: Tobias Djuren
+          - name: Marc Alexa
       - title: "Normal-Driven Spherical Shape Analogies"
         authors: 
           - name: Hsueh-Ti Derek Li
@@ -29,25 +56,78 @@ paperSessions:
           - name: Alec Jacobson
             affiliation: University of Toronto
       - title: "Roominoes: Generating Novel 3D Floor Plans From Existing 3D Rooms"
+        authors:
+          - name: Kai Wang
+          - name: Xianghao Xu
+          - name: Leon Lei
+          - name: Selena Ling
+          - name: Natalie Lindsay
+          - name: Angel Xuan Chang
+          - name: Manolis Savva
+          - name: Daniel Ritchie
       - title: "Blending of hyperbolic closed curves"
+        authors:
+          - name: Aziz Ikemakhen
   - name: Shape matching
     teaser: /images/ps-shape-matching.jpg
     papers:
       - title: "Discrete Optimization of Shape Matching"
+        authors:
+          - name: Jing Ren
+          - name: Simone Melzi
+          - name: Peter Wonka
+          - name: Maks Ovsjanikov
       - title: "Basis Design for Functional Map Frameworks"
+        authors:
+          - name: Omri Azencot
+          - name: Rongjie Lai
       - title: "Globally Injective Geometry Optimization with Non-Injective Steps"
+        authors:
+          - name: Matthew Overby
+          - name: Danny Kaufman
+          - name: Rahul Narain
   - name: Surface Reconstruction
     teaser: /images/ps-surface-reconstruction.jpg
     papers:
       - title: "Delaunay Meshing and Repairing of Defect-laden NURBS Models"
+        authors:
+          - name: Xiao Xiao
+          - name: Pierre Alliez
+          - name: Laurent Busé
+          - name: Laurent Rineau
       - title: "Progressive Discrete Domains for Implicit Surface Reconstruction"
+        authors:
+          - name: Tong Zhao
+          - name: Pierre Alliez
+          - name: Jean-Marc Thiery
+          - name: Tamy Boubekeur
+          - name: Laurent Busé
       - title: "Scalable Surface Reconstruction with Delaunay-Graph Neural Networks"
+        authors:
+          - name: Raphael Sulzer
+          - name: loic landrieu
+          - name: Renaud Marlet
+          - name: Bruno Vallet
   - name: Direction fields & quads
     teaser: /images/ps-quads.jpg
     papers:
       - title: "Simpler Quad Layouts using Relaxed Singularities"
+        authors:
+          - name: Max Lyon
+          - name: Marcel Campen
+          - name: Leif Kobbelt
       - title: "Learning Direction Fields for Quad Mesh Generation"
+        authors:
+          - name: Alexander Dielen
+          - name: Isaak Lim
+          - name: Max Lyon
+          - name: Leif Kobbelt
       - title: "Surface Map Homology Inference"
+        authors:
+          - name: Janis Born
+          - name: Patrick Schmidt
+          - name: Marcel Campen
+          - name: Leif Kobbelt
   - name: Differential operators
     teaser: /images/ps-differential-operators.jpg
     papers:
@@ -62,17 +142,44 @@ paperSessions:
           - name: Nicolas Mellado 
             affiliation: CNRS, IRIT, Université de Toulouse, France
       - title: "The Diamond Laplace for Polygonal and Polyhedral Meshes"
+        authors:
+          - name: Astrid Bunge
+          - name: Mario Botsch
+          - name: Marc Alexa
       - title: "Frame Field Operators"
+        authors:
+          - name: David Palmer
+            affiliation: MIT
+          - name: Oded Stein
+            affiliation: MIT
+          - name: Justin Solomon
+            affiliation: MIT
   - name: Distances
     teaser: /images/ps-distances.jpg
     papers:
       - title: "Geodesic Distance Computation via Virtual Source Propagation"
+        authors:
+          - name: Philip Trettner
+          - name: David Bommes
+          - name: Leif Kobbelt
       - title: "Practical Computation of the Cut Locus on Discrete Surfaces"
+        authors:
+          - name: Claudio Mancinelli
+          - name: Marco Livesu
+          - name: Enrico Puppo
       - title: "On Landmark Distances in Polygons"
+        authors:
+          - name: Craig Gotsman
+          - name: Kai Hormann
   - name: Fabrication
     teaser: /images/ps-fabrication.jpg
     papers:
       - title: "Developable Approximation via Gauss Image Thinning"
+        authors:
+          - name: Alexandre Binninger
+          - name: Floor Verhoeven
+          - name: Philipp Herholz
+          - name: Olga Sorkine-Hornung
       - title: "Wearable 3D machine knitting"
         authors:
           - name: Kui Wu
@@ -87,6 +194,11 @@ paperSessions:
             affiliation: Florida State University
         note: invited from IEEE TVCG
       - title: "Fabrication-Aware Reverse Engineering for Carpentry"
+        authors:
+          - name: James Noeckel
+          - name: Haisen Zhao
+          - name: Brian Curless
+          - name: Adriana Schulz
 speakers: 
   - name: Bradley Rothenberg
     url: https://www.forbes.com/sites/amyfeldman/2020/10/06/how-this-140-million-design-software-startup-uses-math-to-help-power-the-shift-to-3d-printing/?sh=380a96fb36cc

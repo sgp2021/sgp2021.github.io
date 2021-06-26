@@ -697,7 +697,7 @@ td.teaserColumn
 {
   vertical-align: top;
   width: 20%;
-  min-width: 20px;
+  min-width: 80px;
   max-width: 100px;
   padding: 0px;
   margin: 0px;
@@ -705,14 +705,6 @@ td.teaserColumn
 }
 
 
-.paper-author
-{
-  font-style: italic;
-  padding: 0;
-  margin: 0;
-  padding-left: 2em;
-  font-size: 0.9em;
-}
 .paper-title
 {
   font-size: 1.1em;
@@ -726,6 +718,23 @@ td.teaserColumn
   content: "”";
 }
 .paper-note
+{
+  color: var(--gray);
+}
+.authorList
+{
+  overflow: auto;
+}
+.paper-author
+{
+  float: left;
+  padding-right: 1em;
+  column-width: auto;
+  column-count: auto;
+  font-style: italic;
+  font-size: 0.9em;
+}
+.paper-author-affiliation
 {
   color: var(--gray);
 }
