@@ -31,16 +31,19 @@ paperSessions:
       - title: "Roominoes: Generating Novel 3D Floor Plans From Existing 3D Rooms"
       - title: "Blending of hyperbolic closed curves"
   - name: Shape matching
+    teaser: /images/ps-shape-matching.jpg
     papers:
       - title: "Discrete Optimization of Shape Matching"
       - title: "Basis Design for Functional Map Frameworks"
       - title: "Globally Injective Geometry Optimization with Non-Injective Steps"
   - name: Surface Reconstruction
+    teaser: /images/ps-surface-reconstruction.jpg
     papers:
       - title: "Delaunay Meshing and Repairing of Defect-laden NURBS Models"
       - title: "Progressive Discrete Domains for Implicit Surface Reconstruction"
       - title: "Scalable Surface Reconstruction with Delaunay-Graph Neural Networks"
   - name: Direction fields & quads
+    teaser: /images/ps-quads.jpg
     papers:
       - title: "Simpler Quad Layouts using Relaxed Singularities"
       - title: "Learning Direction Fields for Quad Mesh Generation"
@@ -61,6 +64,7 @@ paperSessions:
       - title: "The Diamond Laplace for Polygonal and Polyhedral Meshes"
       - title: "Frame Field Operators"
   - name: Distances
+    teaser: /images/ps-distances.jpg
     papers:
       - title: "Geodesic Distance Computation via Virtual Source Propagation"
       - title: "Practical Computation of the Cut Locus on Discrete Surfaces"
