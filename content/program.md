@@ -77,7 +77,7 @@ paperSessions:
           - name: Simone Melzi
           - name: Peter Wonka
           - name: Maks Ovsjanikov
-      - title: "Basis Design for Functional Map Frameworks"
+      - title: "A Data-Driven Approach to Functional Map Construction and Bases Pursuit"
         authors:
           - name: Omri Azencot
           - name: Rongjie Lai
