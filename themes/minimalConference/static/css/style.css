@@ -738,3 +738,26 @@ td.teaserColumn
 {
   color: var(--gray);
 }
+
+#program-banner
+{
+  background-color: var(--dark-blue);
+  max-width: 100%;
+  border-radius: 0px 0px 10px 10px;
+}
+
+#program-banner #program-nav a
+{
+  font-family: var(--headerfont);
+  font-size: 1.1em;
+  color: var(--turquoise);
+}
+
+#program-banner #program-nav a:after
+{
+  content: "↓";
+}
+#program-banner #program-nav a:before
+{
+  content: "↓";
+}
