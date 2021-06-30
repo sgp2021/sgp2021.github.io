@@ -51,7 +51,7 @@ paperSessions:
           - name: Marc Alexa
       - title: "Normal-Driven Spherical Shape Analogies"
         authors: 
-          - name: Hsueh-Ti Derek Li
+          - name: Hsueh-Ti Derek Liu
             affiliation: University of Toronto
           - name: Alec Jacobson
             affiliation: University of Toronto
