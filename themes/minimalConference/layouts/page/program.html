@@ -105,7 +105,9 @@
     {{ end }}
     </td>
     <td>
-      <h3 class=sessionName id={{ .name | urlize }}>{{ .name}}</h3>
+      <h3 class=sessionName id={{ .name | urlize }}>{{ .name}}
+      <span class="sessionChair line">chaired by {{ .chair}}</span>
+      </h3>
       <ul class=paperList>
       {{ range .papers}}
         <li>

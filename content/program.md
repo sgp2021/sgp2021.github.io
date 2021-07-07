@@ -5,6 +5,7 @@ type: "page"
 paperSessions: 
   - name: Data & Acquisition
     teaser: /images/ps-data-and-acquisition.jpg
+    chair: Qingnan Zhou
     papers:
       - title: "A Benchmark Dataset for Repetitive Pattern Recognition on Textured 3D Surfaces"
         authors:
@@ -41,6 +42,7 @@ paperSessions:
           - name: Sung-Hee Lee
             affiliation: KAIST
   - name: Shape Synthesis & Editing
+    chair: Yotam Gingold
     teaser: /images/ps-shape-synthesis-and-editing.jpg
     papers:
       - title: "Gauss Stylization: Interactive Artistic Mesh Modeling based on Preferred Surface Normals"
@@ -69,6 +71,7 @@ paperSessions:
         authors:
           - name: Aziz Ikemakhen
   - name: Shape matching
+    chair: Edward Chien
     teaser: /images/ps-shape-matching.jpg
     papers:
       - title: "Discrete Optimization of Shape Matching"
@@ -87,6 +90,7 @@ paperSessions:
           - name: Danny Kaufman
           - name: Rahul Narain
   - name: Surface Reconstruction
+    chair: Raphaelle Chaine
     teaser: /images/ps-surface-reconstruction.jpg
     papers:
       - title: "Delaunay Meshing and Repairing of Defect-laden NURBS Models"
@@ -110,6 +114,7 @@ paperSessions:
           - name: Bruno Vallet
   - name: Direction fields & quads
     teaser: /images/ps-quads.jpg
+    chair: Chengcheng Tang
     papers:
       - title: "Simpler Quad Layouts using Relaxed Singularities"
         authors:
@@ -130,6 +135,7 @@ paperSessions:
           - name: Leif Kobbelt
   - name: Differential operators
     teaser: /images/ps-differential-operators.jpg
+    chair: Philipp Herholz
     papers:
       - title: "Stable and efficient differential estimators on oriented point clouds"
         authors:
@@ -156,6 +162,7 @@ paperSessions:
             affiliation: MIT
   - name: Distances
     teaser: /images/ps-distances.jpg
+    chair: Nicholas Sharp
     papers:
       - title: "Geodesic Distance Computation via Virtual Source Propagation"
         authors:
@@ -173,6 +180,7 @@ paperSessions:
           - name: Kai Hormann
   - name: Fabrication
     teaser: /images/ps-fabrication.jpg
+    chair: Daniele Panozzo
     papers:
       - title: "Developable Approximation via Gauss Image Thinning"
         authors:

@@ -761,3 +761,9 @@ td.teaserColumn
 {
   content: "↓";
 }
+
+.sessionChair
+{
+  font-size: 0.6em;
+  color: var(--blue);
+}

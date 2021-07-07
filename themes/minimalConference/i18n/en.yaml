@@ -58,3 +58,5 @@
   translation: "Stay tuned for more information"
 - id: register
   translation: "Register"
+- id: student_volunteers
+  translation: "Student Volunteers"

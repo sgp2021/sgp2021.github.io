@@ -383,7 +383,7 @@ Params:
           affiliation: "Université Grenoble-Alpes"
           country: "France"
         - name: "Su Hao"
-          affiliation: "UC San Diego"
+          affiliation: "UCSD"
           country: "USA"
         - name: "Tamy Boubekeur"
           affiliation: "Adobe 3D&Immersive"
@@ -426,7 +426,7 @@ Params:
           country: "UK"
     - id: awards_committee
       members:
-        - name: Ogla Diamanti
+        - name: Olga Diamanti
           affiliation: TU Graz
           country: "Austria"
         - name: Mirela Ben-Chen
@@ -479,6 +479,44 @@ Params:
         - name: "Daniele Panozzo"
           affiliation: "New York University"
           country: "USA"
+    - id: student_volunteers
+      members:
+        - name: Abhishek Madan
+          affiliation: University of Toronto
+          country: Canada
+        - name: Hsueh-Ti Derek Liu
+          affiliation: University of Toronto
+          country: Canada
+        - name: Jiayi Eris Zhang
+          affiliation: University of Toronto
+          country: Canada
+        - name: Letícia Mattos Da Silva
+          affiliation: UCLA
+          country: USA
+        - name: Otman Benchekroun
+          affiliation: Simon Fraser University
+          country: Canada
+        - name: Qimin Chen
+          affiliation: Simon Fraser University
+          country: Canada
+        - name: Reza Asad
+          affiliation: Simon Fraser University
+          country: Canada
+        - name: Sarah Kushner
+          affiliation: University of Toronto
+          country: Canada
+        - name: Silvia Sellán
+          affiliation: University of Toronto
+          country: Canada
+        - name: Towaki Takikawa
+          affiliation: University of Toronto
+          country: Canada
+        - name: Yue Ruan
+          affiliation: Simon Fraser University
+          country: Canada
+        - name: Zoë Marschner
+          affiliation: MIT
+          country: USA
   flagEmojis:
     Afghanistan: "🇦🇫"
     Albania: "🇦🇱"
