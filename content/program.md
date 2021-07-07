@@ -70,6 +70,7 @@ paperSessions:
       - title: "Blending of hyperbolic closed curves"
         authors:
           - name: Aziz Ikemakhen
+          - name: Taoufik Ahanchaou
   - name: Shape matching
     chair: Edward Chien
     teaser: /images/ps-shape-matching.jpg
