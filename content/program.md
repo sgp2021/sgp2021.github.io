@@ -2,6 +2,8 @@
 title: "Program"
 layout: "program"
 type: "page"
+paperUSB: https://cloud.fraunhofer.at/s/sY2mezd4NgRRoPM/download/USB-SGP2021.zip
+paperURL: https://diglib.eg.org/handle/10.2312/2633079
 paperSessions: 
   - name: Data & Acquisition
     teaser: /images/ps-data-and-acquisition.jpg
