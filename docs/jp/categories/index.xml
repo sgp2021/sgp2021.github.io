@@ -5,6 +5,10 @@
     <link>https://sgp2021.github.io/jp/categories/</link>
     <description>Recent content in Categories on Symposium on Geometry Processing</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://sgp2021.github.io/jp/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    
+	<atom:link href="https://sgp2021.github.io/jp/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
   </channel>
 </rss>
