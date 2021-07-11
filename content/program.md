@@ -289,6 +289,7 @@ graduateSchoolCourses:
     teaser: /images/gslearning.jpg
     youtube: https://www.youtube.com/embed/qVctAmMGlQQ
   - title: Directional Field Processing
+    youtube: https://www.youtube.com/embed/wKG8SmWch2Y 
     speakers:
       - name: Amir Vaxman 
         url: https://webspace.science.uu.nl/~vaxma001/
@@ -296,6 +297,7 @@ graduateSchoolCourses:
     teaser: /images/gsfields.png
     abstract: "Directional fields are core objects of geometry processing. They represent movement, flow, alignment, or geometric transformations. Their applications range from fluid simulation, through architectural design, to mesh generation. We will discuss the theoretical and empirical challenges in representing and discretizing directional fields on surfaces and in volumes, and some of their desired properties with relation to the applications; namely, smoothness, integrability, constrained size or symmetry, and more. We will further discuss how recent approaches optimized for these properties. Finally, we will demonstrate some of the common design paradigms for directional fields using the software library Directional."
   - title: Digital Geometry
+    youtube: https://www.youtube.com/embed/Cwf16UuT0ec
     abstract: "Digital Geometry is about the processing of topological and geometrical objects defined in regular lattices (e.g. collection of voxels in 3d). Whereas representing quantities on regular, hierarchical or adaptive grids is a classical approach to spatially discretize a domain, processing the geometry of such objects requires us to revisit classical results from continuous or discrete mathematics. In this course, we will review tools and results that have been designed specifically to the geometry processing in Z^d. More precisely, we will present how processing regularly spaced data with integer coordinate embeddings may impact computational geometry algorithms, and how stability results (multigrid convergence) of differential quantities estimators (curvature tensor, Laplace-Beltrami,..) on boundaries of digital objects can be designed. Finally, we will present some elements of discrete calculus on digital surfaces.
 Lastly, we will briefly give a demo of the DGtal library (dgtal.org) which contains a wide class of algorithms dedicated to the processing of such specific data."
     teaser: /images/gsdiscrete.jpg
