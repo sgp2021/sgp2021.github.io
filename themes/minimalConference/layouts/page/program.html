@@ -74,8 +74,12 @@
     <h3>
       <span class=graduate-school-title>{{ .title}}</span>
     </h3>
+    {{ if (isset . "youtube") }}
+      <iframe class=embedded-video src={{.youtube}} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    {{else}}
     {{ if (isset . "teaser") }}
     <img src={{ .teaser }} class=graduate-school-teaser>
+    {{ end }}
     {{ end }}
     <p>
     {{ $len := (len .speakers ) }}
@@ -99,44 +103,33 @@
 <h4><a href={{.Params.paperURL}}>Proceedings on EG Digital Library</a></h4>
 <h4><a href={{.Params.paperUSB}}>Virtual USB Key (1.1GB)</a></h4>
 
-<table class=paperTable>
 {{range .Params.paperSessions}}
-  <tr class=sessionRow>
-    <td class=teaserColumn>
-    {{ if (isset . "teaser") }}
-      <img src={{ .teaser }} class=session-teaser>
-    {{ end }}
-    </td>
-    <td>
-      <h3 class=sessionName id={{ .name | urlize }}>{{ .name}}
-      <span class="sessionChair line">chaired by {{ .chair}}</span>
-      </h3>
-      <ul class=paperList>
-      {{ range .papers}}
-        <li>
-          <span class=paper-title>{{ .title }}</span>
-          {{ if (isset . "note") }}
-            <span class=paper-note>{{ .note}}</span>
-          {{ end }}
-          {{ if (isset . "authors") }}
-            <div class=authorList>
-            {{ range .authors}}
-              <div class=paper-author>
-                <span class=line>{{.name}}{{ if (isset . "affiliation") }},</span> <span class="paper-author-affiliation line">{{.affiliation}}</span>
-                {{else}}
-                </span>
-                {{end}}
-              </div>
-            {{end}}
-            </div>
-          {{end}}
-        </li>
+  <h3 class=sessionName id={{ .name | urlize }}>{{ .name}}
+  <span class="sessionChair line">chaired by {{ .chair}}</span>
+  </h3>
+  <iframe class=embedded-video src={{.youtube}} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div class=paperListContainer>
+  <ul class=paperList>
+  {{ range .papers}}
+    <li>
+      <span class=paper-title>{{ .title }}</span>
+      {{ if (isset . "note") }}
+        <span class=paper-note>{{ .note}}</span>
+      {{ end }}
+      {{ if (isset . "authors") }}
+        <div class=authorList>
+        {{ range .authors}}
+          <div class=paper-author>
+            <span class=line> {{.name}} </span>
+          </div>
+        {{end}}
+        </div>
       {{end}}
-      </ul>
-    </td>
-  </tr>
+    </li>
+  {{end}}
+  </ul>
+  </div>
 {{end}}
-</table>
 
 {{ .Content }}
 </div>

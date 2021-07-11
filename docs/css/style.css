@@ -311,6 +311,15 @@ img.keynote-portrait
   text-align-last: left;
 }
 
+.embedded-video
+{
+  float: left;
+  width: 256px;
+  height: 155px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
 img.graduate-school-teaser
 {
   float: left;
@@ -656,6 +665,11 @@ div.graduate-school-text-container
   margin-right: auto;
 }
 
+div.paperListContainer
+{
+  max-width: 800px;
+  display: inline-block;
+}
 ul.paperList
 {
   column-width: auto;

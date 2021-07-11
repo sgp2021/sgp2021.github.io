@@ -6,6 +6,7 @@ paperUSB: https://cloud.fraunhofer.at/s/sY2mezd4NgRRoPM/download/USB-SGP2021.zip
 paperURL: https://diglib.eg.org/handle/10.2312/2633079
 paperSessions: 
   - name: Data & Acquisition
+    youtube: https://www.youtube.com/embed/videoseries?list=PLUykN3u3Z3NUkOR8_a7cgiLam14EvdRwa
     teaser: /images/ps-data-and-acquisition.jpg
     chair: Qingnan Zhou
     papers:
@@ -44,6 +45,7 @@ paperSessions:
           - name: Sung-Hee Lee
             affiliation: KAIST
   - name: Shape Synthesis & Editing
+    youtube: https://www.youtube.com/embed/videoseries?list=PLUykN3u3Z3NVpRkz5hwRk0tz5oKxtwDeB
     chair: Yotam Gingold
     teaser: /images/ps-shape-synthesis-and-editing.jpg
     papers:
@@ -74,6 +76,7 @@ paperSessions:
           - name: Aziz Ikemakhen
           - name: Taoufik Ahanchaou
   - name: Shape matching
+    youtube: https://www.youtube.com/embed/videoseries?list=PLUykN3u3Z3NX5sOIBQ-cRJPOqNmdTmCDp
     chair: Edward Chien
     teaser: /images/ps-shape-matching.jpg
     papers:
@@ -93,6 +96,7 @@ paperSessions:
           - name: Danny Kaufman
           - name: Rahul Narain
   - name: Surface Reconstruction
+    youtube: https://www.youtube.com/embed/videoseries?list=PLUykN3u3Z3NUSknd0u2PgzsgCJoVkdPUT
     chair: Raphaelle Chaine
     teaser: /images/ps-surface-reconstruction.jpg
     papers:
@@ -116,6 +120,7 @@ paperSessions:
           - name: Renaud Marlet
           - name: Bruno Vallet
   - name: Direction fields & quads
+    youtube: https://www.youtube.com/embed/videoseries?list=PLUykN3u3Z3NXtS0UuFqnQuESun28gyH3V
     teaser: /images/ps-quads.jpg
     chair: Chengcheng Tang
     papers:
@@ -137,6 +142,7 @@ paperSessions:
           - name: Marcel Campen
           - name: Leif Kobbelt
   - name: Differential operators
+    youtube: https://www.youtube.com/embed/videoseries?list=PLUykN3u3Z3NX14GsjP1VyG-dTl0er-uaX
     teaser: /images/ps-differential-operators.jpg
     chair: Philipp Herholz
     papers:
@@ -164,6 +170,7 @@ paperSessions:
           - name: Justin Solomon
             affiliation: MIT
   - name: Distances
+    youtube: https://www.youtube.com/embed/videoseries?list=PLUykN3u3Z3NX4OXsVeK18q1GQ-jZXwgEG
     teaser: /images/ps-distances.jpg
     chair: Nicholas Sharp
     papers:
@@ -182,6 +189,7 @@ paperSessions:
           - name: Craig Gotsman
           - name: Kai Hormann
   - name: Fabrication
+    youtube: https://www.youtube.com/embed/videoseries?list=PLUykN3u3Z3NUz9kNy-d9bVOrZQVz0T8Yb
     teaser: /images/ps-fabrication.jpg
     chair: Daniele Panozzo
     papers:
@@ -239,9 +247,9 @@ graduateSchoolCourses:
       - name: Tamy Boubekeur
         url: https://perso.telecom-paristech.fr/boubek/
         affiliation: Adobe Research
-    abstract: "Shape approximation methods aim at generating a light weight proxy from high resolution surfaces, such as 3D scans. The proxy can then be used a convenient substitute to the actual shape for various compute-intensive tasks such as retrieval, physics simulation, freeform modeling, level-of-detail rendering, performance capture reverse engineering and more. Depending on the application, the nature and desired properties of the proxy may vary. Often, its efficient yet controllable generation remains an open problem. 
-In this course, we will discuss a variety of approaches to shape approximation, including mesh simplification, shape recognition, mathematical morphology and probabilistic models. We will also review mechanisms to link a proxy to the original shape, establishing ways to propagate information from one to the other. Last, we'll discuss applications and some research directions in this space that could be fruitful for computer graphics and beyond."
+    abstract: "Shape approximation methods aim at generating a light weight proxy from high resolution surfaces, such as 3D scans. The proxy can then be used a convenient substitute to the actual shape for various compute-intensive tasks such as retrieval, physics simulation, freeform modeling, level-of-detail rendering, performance capture reverse engineering and more. Depending on the application, the nature and desired properties of the proxy may vary. Often, its efficient yet controllable generation remains an open problem. In this course, we will discuss a variety of approaches to shape approximation, including mesh simplification, shape recognition, mathematical morphology and probabilistic models. We will also review mechanisms to link a proxy to the original shape, establishing ways to propagate information from one to the other. Last, we'll discuss applications and some research directions in this space that could be fruitful for computer graphics and beyond."
     teaser: /images/gsshapeapprox.jpg
+    youtube: https://www.youtube.com/embed/CjBTg1eXZz8
   - title: Projective Dynamics/Simulation
     speakers:
       - name: Tiantian Liu
@@ -249,6 +257,7 @@ In this course, we will discuss a variety of approaches to shape approximation, 
         affiliation: Microsoft Research Asia
     abstract: "Physically-based simulations have been used more and more in recent interactive applications. In this talk, we will cover the key ideas we have been using to accelerate our simulations,  utilizing the geometric information of the simulated objects. We will start from Projective Dynamics, an acceleration method to simulate mass-spring systems, and some simple finite element models such as the as-rigid-as-possible model. We show that Projective Dynamics can be seen as a quasi-Newton method that approximates the Hessian matrix of the elastic potential with a topological-aware Laplacian matrix. Other than assembling the Laplacian matrices, we can also use the mesh topology to propagate information throughout the entire simulated mesh. We will then show an efficient unstructured Galerkin multigrid algorithm using this idea. We summarize these strategies we used as localizing the nonlinearity and grouping the similars. During this course, we use these strategies as an example of how we use geometric information to accelerate simulations. And we look forward to seeing more geometric-based ideas in accelerated physically-based simulations."
     teaser: /images/gsdynamics.jpg
+    youtube: https://www.youtube.com/embed/4Vk7Ar3COJA
   - title: "Geometric Computing with Python"
     teaser: /images/gspython.jpg
     abstract: "In this course, we present an easy-to-use Python-based workflow for applications in geometric computing and visualization. Our libraries have a shallow learning curve while also enable programmers to accomplish a wide variety of complex tasks. Furthermore, we adopt NumPy arrays as a common interface, which greatly simplifies serialization and interoperability with existing scientific computing packages. Finally, our libraries are performant, with most computations in C++ and a minimal overhead interface to Python. In addition, we present a demo on using the libraries to implement a geometry processing algorithm with ease. By the end of the course, attendees will have exposure to a set of simple, composable, and high-performance tools for geometric computing."
@@ -259,6 +268,7 @@ In this course, we will discuss a variety of approaches to shape approximation, 
       - name: Zhongshi Jiang
         url: https://cs.nyu.edu/~zhongshi/
         affiliation: NYU
+    youtube: https://www.youtube.com/embed/TcPR_239enI
   - title: Maps Between Surfaces
     speakers:
       - name: Marcel Campen
@@ -269,6 +279,7 @@ In this course, we will discuss a variety of approaches to shape approximation, 
         affiliation: "RWTH Aachen University"
     abstract: "Maps between the surfaces of two or more 3D models are a core building block in many geometry processing tasks. They allow transferring data (e.g. textures, labels, annotations, animations) from one object to another, they are used to establish correspondence within a data set (e.g. for machine learning purposes), and they are required when algorithms process multiple shapes at once (e.g. in co-analysis contexts or in co-processing scenarios like compatible remeshing). In this course we dive into theoretical as well as practical aspects of such maps from a computational point of view. Our main focus will be on homeomorphisms: maps that satisfy strict continuity and bijectivity criteria. These avoid any kind of undesirable tears or folds and thus provide a well-defined foundation for reliable algorithms. In three blocks, we will learn (1) how to computationally represent maps, (2) how to initially construct valid maps, in particular homeomorphisms, and (3) how to improve their quality via continuous optimization. In each chapter, we will work our way up from the well-studied case of maps in the plane to the more challenging case of maps between discrete curved surfaces."
     teaser: /images/gsmaps.jpg
+    youtube: https://www.youtube.com/embed/jMWJ79EpyfQ
   - title: Deep Learning on Meshes
     speakers:
       - name: Rana Hanocka
@@ -276,6 +287,7 @@ In this course, we will discuss a variety of approaches to shape approximation, 
         affiliation: Tel Aviv University
     abstract: "The irrefutable success of deep learning on structured data (such as images and text) has sparked significant interest in its applicability to problems in geometry processing. In this talk, we will discuss the key challenges and current solutions for using mesh convolutional neural networks on the unstructured mesh representation for problems in geometry processing. We will outline the design choices and implications of (1) learning on different mesh elements (vertices, faces, edges); (2) invariance to rigid transformations; (3) invariance and equivariance to the order of mesh elements; (4) input features, among others. We discuss existing applications of mesh convolutional neural networks, as well as potential promising future directions."
     teaser: /images/gslearning.jpg
+    youtube: https://www.youtube.com/embed/qVctAmMGlQQ
   - title: Directional Field Processing
     speakers:
       - name: Amir Vaxman 
@@ -311,6 +323,7 @@ We will show you how to do basic linear algebra operations in MATLAB, how to man
       - name: Advised by Alec Jacobson
         url: http://www.cs.toronto.edu/~jacobson/
         affiliation: University of Toronto
+    youtube: https://www.youtube.com/embed/NGathaVRyDA
   - title: A Quick Introduction to the Laplacian and Bilaplacian Through the Theory of Partial Differential Equations
     speakers:
       - name: Oded Stein
@@ -319,5 +332,6 @@ We will show you how to do basic linear algebra operations in MATLAB, how to man
     abstract: "In this course we will learn about the Laplacian and Bilaplacian operator, and develop mathematical tools for discussing these two popular operators in geometry processing. We will approach Laplacian and Bilaplacian from the point of view of the mathematical theory of partial differential equations and numerical analysis of finite elements. We will start with a solid mathematical foundation for the definition of Laplacian and Bilaplacian, as well as their associated partial differential equations, and discuss their solvability. Then we will discretize these operators using the finite element and mixed finite element methods, and superficially investigate their convergence. Having implemented the discrete Bilaplacian for triangle meshes, we will explore the application of this discrete operator to a variety of geometry processing problems, from smoothing and surface animation to distance computation.
 After completing this course you will be able to define Laplacian and Bilaplacian as operators on Sobolev spaces, comment on their solvability, discretize them with the mixed finite element method, and know of some of the interesting applications for which the Bilaplacian can be used."
     teaser: /images/gslaplacian.jpg
+    youtube: https://www.youtube.com/embed/LUcn9GzhFDA
 
 ---
