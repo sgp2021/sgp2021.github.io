@@ -107,6 +107,7 @@
   <h3 class=sessionName id={{ .name | urlize }}>{{ .name}}
   <span class="sessionChair line">chaired by {{ .chair}}</span>
   </h3>
+  <div class=sessionContainer>
   <iframe class=embedded-video src={{.youtube}} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   <div class=paperListContainer>
   <ul class=paperList>
@@ -128,6 +129,7 @@
     </li>
   {{end}}
   </ul>
+  </div>
   </div>
 {{end}}
 

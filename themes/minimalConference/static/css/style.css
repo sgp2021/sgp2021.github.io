@@ -665,6 +665,10 @@ div.graduate-school-text-container
   margin-right: auto;
 }
 
+div.sessionContainer
+{
+  overflow: auto;
+}
 div.paperListContainer
 {
   max-width: 800px;
