@@ -228,6 +228,7 @@ speakers:
     bio: "Bradley Rothenberg is the founder and CEO of nTopology, an engineering software company based in New York City built to enable engineers to design transformative products. nTopology's breakthrough technology unifies geometry and physics into finely tuned digital models, supporting engineers as they collaborate to develop lightweight, optimized parts with the requirements built right in. Bradley studied architecture at Pratt Institute in Brooklyn, New York, and has been developing computational design tools for advanced manufacturing for the last 10-plus years."
     portrait: /images/brportrait.jpg
   - name: Geoffrey Hinton
+    youtube: https://www.youtube.com/embed/psTb_Voxpqc
     url: https://www.cs.toronto.edu/~hinton/
     affiliation: University of Toronto/Google Research
     portrait: /images/ghportrait.jpg
