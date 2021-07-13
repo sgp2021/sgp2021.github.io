@@ -320,6 +320,15 @@ img.keynote-portrait
   border-radius: 20px;
 }
 
+.keynote-embedded-video
+{
+  float: right;
+  width: 256px;
+  height: 155px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
 img.graduate-school-teaser
 {
   float: left;

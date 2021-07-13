@@ -220,12 +220,12 @@ paperSessions:
           - name: Adriana Schulz
 speakers: 
   - name: Bradley Rothenberg
+    youtube: https://www.youtube.com/embed/P0s9QV_wImE
     url: https://www.forbes.com/sites/amyfeldman/2020/10/06/how-this-140-million-design-software-startup-uses-math-to-help-power-the-shift-to-3d-printing/?sh=380a96fb36cc
     affiliation: CEO, nTopology
     title: "Engineering-driven design: a new foundation"
     abstract: "nTopology (nTop) solves some of the most difficult problems in shape design, especially those emerging due to additive manufacturing. In doing so, nTop enables new processes for design -- it empowers engineers to design parts that are impossible with older software. To achieve these goals, we use some interesting technologies that are new to engineering software -- specifically basing our modeling tech on Signed Distance Fields (SDFs). This talk describes the new design problems that engineers today face and the software we have developed for solving them."
-    bio: "Bradley Rothenberg is the founder and CEO of nTopology, an engineering software company based in New York City built to enable engineers to design transformative products. nTopology's breakthrough technology unifies geometry and physics into finely tuned digital models, supporting engineers as they collaborate to develop lightweight, optimized parts with the requirements built right in.
-Bradley studied architecture at Pratt Institute in Brooklyn, New York, and has been developing computational design tools for advanced manufacturing for the last 10-plus years."
+    bio: "Bradley Rothenberg is the founder and CEO of nTopology, an engineering software company based in New York City built to enable engineers to design transformative products. nTopology's breakthrough technology unifies geometry and physics into finely tuned digital models, supporting engineers as they collaborate to develop lightweight, optimized parts with the requirements built right in. Bradley studied architecture at Pratt Institute in Brooklyn, New York, and has been developing computational design tools for advanced manufacturing for the last 10-plus years."
     portrait: /images/brportrait.jpg
   - name: Geoffrey Hinton
     url: https://www.cs.toronto.edu/~hinton/
