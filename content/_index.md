@@ -6,7 +6,6 @@ type: page
 
 ## Response to Pandemic
 
-SGP 2021 will be a _**purely remote event**_ hosted over the internet. 
-While sadly there will be no in-person events in Toronto, the [organizational
-team](/organization) is enthusiastic about the opportunities created by hosting a remote event.
-Please check back frequently for more details.
+SGP 2021 was a _**purely remote event**_ hosted over the internet. 
+While sadly there was be no in-person events in Toronto, the [organizational
+team](/organization) was enthusiastic about the opportunities created by hosting a remote event.

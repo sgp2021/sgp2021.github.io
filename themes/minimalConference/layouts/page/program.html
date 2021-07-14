@@ -1,7 +1,6 @@
 {{ define "main" }}
 <div id=program-banner>
   <nav id=program-nav class="nav justify-content-center">
-  <a class=nav-link href=#schedule>Schedule</a>
   <a class=nav-link href=#keynotes>Keynotes</a>
   <a class=nav-link href=#graduate-school>Graduate School</a>
   <a class=nav-link href=#technical-papers>Technical Papers</a>
@@ -15,6 +14,7 @@
     href=https://docs.google.com/document/d/1ywKq2UizWWmDAacSV79DbStPimQhqDiFX5mOZXlt1yI/>SGP
     2021 Code of Conduct</a>.</p>
 
+  <!--
   <h2 id=schedule>Schedule</h2>
 
 <noscript id=cal-noscript>
@@ -32,6 +32,7 @@
     template.content.firstChild,
     document.getElementById('cal-noscript'));
 </script>
+-->
 
   <h2 id=keynotes>{{T "keynotes" }}</h2>
 {{range .Params.speakers }}
