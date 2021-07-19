@@ -4,31 +4,33 @@ layout: "simple-static"
 type: "page"
 ---
 
+## Best Paper 3rd Place
+
+Sponsored by ![adobe logo](/images/adobe.png#logo_award)
+
+**"SimJEB: Simulated Jet Engine Bracket Dataset"**  
+Eamon Whalen, Azariah Beyene, Caitlin Mueller
+
+## Best Paper 2nd Place
+
+Sponsored by ![ntopology logo](/images/ntopology.png#logo_award)
+
+**"Geodesic Distance Computation via Virtual Source Propagation"**  
+Philip Trettner, David Bommes, Leif Kobbelt
 
 ## Best Paper Award
 
 Sponsored by ![FRL logo](/images/frl.png#logo_award)
 
-_Will be announced at end of conference._
-
-
-## Best Student Paper Award
-
-Sponsored by ![ntopology logo](/images/ntopology.png#logo_award)
-
-_Will be announced at end of conference._
-
-## Best Paper Honorable Mention
-
-Sponsored by ![adobe logo](/images/adobe.png#logo_award)
-
-_Will be announced at end of conference._
+**"Surface Map Homology Inference"**  
+Janis Born, Patrick Schmidt, Marcel Campen, Leif Kobbelt
 
 ## Software Award
 
 Sponsored by ![gf logo](/images/GF.png#logo_award)
 
-_Will be announced at end of conference._
+**"Directional"**  
+Amir Vaxman
 
 [Previous awardees.](http://awards.geometryprocessing.org/)
 
@@ -37,6 +39,7 @@ _Will be announced at end of conference._
 
 Sponsored by ![gf logo](/images/GF.png#logo_award)
 
-_Will be announced at end of conference._
+**"HexaLab"**  
+Matteo Bracci, Marco Tarini, Nico Pietroni, Marco Livesu, Paolo Cignoni
 
 [Previous awardees.](http://awards.geometryprocessing.org/)
