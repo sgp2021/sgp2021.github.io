@@ -43,3 +43,11 @@ Sponsored by ![gf logo](/images/GF.png#logo_award)
 Matteo Bracci, Marco Tarini, Nico Pietroni, Marco Livesu, Paolo Cignoni
 
 [Previous awardees.](http://awards.geometryprocessing.org/)
+
+## Test of Time Award
+
+**"Poisson Surface Reconstruction"**  
+Michael Kazhdan, Matthew Bolitho and Hugues Hoppe  
+_Symposium on Geometry Processing, 2006_
+
+[Previous awardees.](http://awards.geometryprocessing.org/)
