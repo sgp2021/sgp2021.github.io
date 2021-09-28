@@ -4,7 +4,7 @@ layout: "landing"
 type: page
 ---
 
-## Next year: SGP 2020
+## Next year: SGP 2022
 
 SGP 2021 is over but SGP 2022 is coming up. Check this address for updates on
 location and dates.
